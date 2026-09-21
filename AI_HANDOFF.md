@@ -39,7 +39,7 @@ Node 20+。游戏运行必需的图片、声音、字体及单元测试小样本
 ## 最新验证与准确边界
 
 - 收尾 `npm test`：**370/370 通过，0 跳过**。详见 [最终测试输出](docs/handoff/final-test-results.txt)。
-- 最新完整浏览器流程：DAY1→DAY3，**852 次真实操作，22 次书页拖卡，保存/加载成功，0 浏览器错误**，包含 DAY2 策展库存选择与报价。解包证据后看 `artifacts/native-update/demo-browser-curation-final2/report.json`、`acceptance-summary.json`、`build-manifest.json` 和 35 张截图。
+- 最新完整浏览器流程：DAY1→DAY3，**852 次真实操作，22 次书页拖卡，保存/加载成功，0 浏览器错误**，包含 DAY2 策展库存选择与报价。旧电脑本地证据为 `artifacts/native-update/demo-browser-curation-final2/report.json`、`acceptance-summary.json`、`build-manifest.json` 和 35 张截图；这些文件不随仓库上传，新电脑应重新运行验证。
 - 更早的 `demo-browser-*` 目录包含失败记录，不能仅凭文件存在就判通过。尤其 `demo-browser-curation-final/` 是发现重复库存按钮的失败版，`final2/` 才是修复后的版本。
 - 77 页手册、252+17 种卡片外观有逐页/逐卡浏览器检查；6 工具有 20 项真实 UI 机制检查。工具专项使用明确标记的原生存档测试样本，不等于从新游戏自然获取了所有工具。
 - 后来修了损伤针缓动和宝石票据打印/遮罩；完整三天回归覆盖损伤工具，但最终的宝石逐帧动画专项**尚未重跑**。不要把旧工具专项报告当作新动画的验收。
