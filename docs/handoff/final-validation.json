@@ -21,5 +21,33 @@
     "Final frame-by-frame scanner animation check",
     "Remaining native presentation and pixel parity"
   ],
-  "primaryHandoff": "AI_HANDOFF.md"
+  "primaryHandoff": "AI_HANDOFF.md",
+  "cleanCheckout": {
+    "verifiedAt": "2026-09-21T16:28:37.053255+00:00",
+    "sourceCommit": "2cf388b145bd9a63648540e8ac11b1174afe976f",
+    "method": "git archive HEAD into an empty directory; no old node_modules, research directory, or original Demo present",
+    "npmCi": "passed; zero audit vulnerabilities reported",
+    "npmTest": {
+      "passed": 370,
+      "failed": 0,
+      "skipped": 0
+    },
+    "npmRunBuild": "passed; bundle-size advisory remains",
+    "browserSmoke": {
+      "newGame": true,
+      "campaign": "demo",
+      "day": 1,
+      "cash": 1000,
+      "errors": 0,
+      "screenshot": "Inspected locally; intentionally not uploaded"
+    },
+    "packageScope": {
+      "trackedFiles": 20106,
+      "originalProgramFiles": 0,
+      "researchScreenshotFiles": 0,
+      "validationScreenshotFiles": 0,
+      "testEvidenceFiles": 60,
+      "runtimeAssetFiles": 19831
+    }
+  }
 }
