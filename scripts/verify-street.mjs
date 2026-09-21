@@ -1,0 +1,24 @@
+import {browserExecutable} from './browser-executable.mjs';
+import {chromium} from 'playwright';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const out='artifacts/qa/street';await fs.mkdir(out,{recursive:true});
+const report={passed:false,checks:[],errors:[],screens:[]};
+const browser=await chromium.launch({headless:true,executablePath:browserExecutable}),page=await browser.newPage({viewport:{width:1920,height:1080},deviceScaleFactor:1});
+page.on('pageerror',e=>report.errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')report.errors.push(m.text())});
+const state=async()=>JSON.parse(await page.evaluate(()=>window.render_game_to_text()));
+const screenshot=async name=>{await page.screenshot({path:`${out}/${name}.png`});report.screens.push(name)};
+const check=(name,details={})=>{report.checks.push({name,...details});console.log('PASS',name)};
+const fresh=async()=>{await page.goto('http://127.0.0.1:5175/reference/street/preview.html');await page.waitForFunction(()=>document.documentElement.dataset.sceneReady==='true')};
+const walk=async(key,ms)=>{await page.keyboard.down(key);await page.waitForTimeout(ms);await page.keyboard.up(key);await page.waitForTimeout(60)};
+try {
+ await fresh();let s=await state();assert.equal(s.floor,'b1');assert.equal(s.x,2269);await screenshot('initial');
+ await page.keyboard.down('ArrowLeft');await page.waitForTimeout(200);const a=await state();await page.waitForTimeout(200);const b=await state();await page.keyboard.up('ArrowLeft');assert.ok(a.x<s.x&&b.x<a.x);assert.ok(a.cameraX<s.cameraX&&b.cameraX<a.cameraX);check('continuous walking and camera movement across intermediate positions',{start:s.x,a:a.x,b:b.x});
+ await fresh();await page.mouse.click(226,464);await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).actions.includes('street:notice:scented'),{},{timeout:5000});s=await state();assert.equal(s.nearby.id,'scented');assert.equal(s.moving,false);check('clicking distant door walks to it then reads original closed notice');await screenshot('scented-notice');
+ await page.mouse.click(1134-s.cameraX,465);await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).floor==='b2',{},{timeout:5000});s=await state();assert.equal(s.floor,'b2');check('walk to B1 left elevator changes to B2');await page.waitForTimeout(350);await screenshot('b2-arrival');
+ await page.mouse.click(812-s.cameraX,650);await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).scavenging,{},{timeout:4000});await screenshot('b2-searching');await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).actions.includes('cash:13'),{},{timeout:5000});s=await state();assert.equal(s.actions.filter(a=>a==='cash:13').length,1);await screenshot('b2-cash13');await page.keyboard.press('e');await page.waitForTimeout(3500);assert.equal((await state()).actions.filter(a=>a==='cash:13').length,1);check('source 13V search is timed and pays only once');
+ await walk('ArrowLeft',1500);assert.equal((await state()).x,810);check('B2 movement stays inside captured walkable region');
+ await fresh();await walk('d',2325);s=await state();if(s.nearby?.id!=='b1-up'){await page.mouse.click(3390-s.cameraX,460);await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).floor==='public',{},{timeout:3000});}else{await page.keyboard.press('e');}await page.waitForTimeout(350);s=await state();assert.equal(s.floor,'public');check('D and E reach the upper public square');await screenshot('public-arrival');await page.keyboard.press('e');await page.waitForTimeout(350);assert.equal((await state()).floor,'b1');check('public right down elevator returns to B1 east');
+ await walk('d',2200);assert.equal((await state()).x,3710);check('B1 right edge clamps to observed balcony');await screenshot('b1-right-edge');await page.locator('#qa-late').click();await page.waitForFunction(()=>document.documentElement.dataset.sceneReady==='true');await page.waitForTimeout(400);s=await state();assert.equal(s.later,true);assert.equal(s.floor,'public');await screenshot('late-center');check('late source scene uses separate panorama and has no protest interaction');await walk('a',1600);s=await state();await page.mouse.click(1094-s.cameraX,460);await page.waitForFunction(()=>JSON.parse(window.render_game_to_text()).actions.includes('nav:office'),{},{timeout:4000});check('office window reached by walking and original E Talk target');await screenshot('late-office');assert.deepEqual(report.errors,[]);report.passed=true;
+}catch(e){report.failure=String(e);report.state=await state().catch(()=>null);await screenshot('failure');console.error(e)}
+await fs.writeFile('artifacts/qa/street-report.json',JSON.stringify(report,null,2));await browser.close();console.log(JSON.stringify(report));if(!report.passed)process.exitCode=1;

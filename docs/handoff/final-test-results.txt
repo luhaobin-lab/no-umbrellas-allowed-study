@@ -1,0 +1,1864 @@
+
+> no-umbrellas-video-reconstruction@0.2.0 test
+> tsx --test src/*.test.ts
+
+TAP version 13
+# Subtest: cashbook conserves every choice and rejects duplicate or unpaid spending
+ok 1 - cashbook conserves every choice and rejects duplicate or unpaid spending
+  ---
+  duration_ms: 0.582833
+  ...
+# Subtest: borrowing is cash income but never trading profit; days and cost bases remain separate
+ok 2 - borrowing is cash income but never trading profit; days and cost bases remain separate
+  ---
+  duration_ms: 0.28075
+  ...
+# Subtest: Independent original-creditor fixtures keep Ajik investor separate from Bluebird capital products
+ok 3 - Independent original-creditor fixtures keep Ajik investor separate from Bluebird capital products
+  ---
+  duration_ms: 2.16275
+  ...
+# Subtest: Executor first-cycle quote and dates agree with direct official DLL calls
+ok 4 - Executor first-cycle quote and dates agree with direct official DLL calls
+  ---
+  duration_ms: 0.22225
+  ...
+# Subtest: Darcy credit uses current true estate and active principal, at exact 200-unit boundaries
+ok 5 - Darcy credit uses current true estate and active principal, at exact 200-unit boundaries
+  ---
+  duration_ms: 0.149625
+  ...
+# Subtest: Interest changes continuously across days and a repeated settlement cannot charge twice
+ok 6 - Interest changes continuously across days and a repeated settlement cannot charge twice
+  ---
+  duration_ms: 0.198042
+  ...
+# Subtest: Three unpaid cycles fail; paying a later cycle clears arrears as in original behavior
+ok 7 - Three unpaid cycles fail; paying a later cycle clears arrears as in original behavior
+  ---
+  duration_ms: 0.1035
+  ...
+# Subtest: Multiple creditors use remaining funds rather than the original negative-cash bug
+ok 8 - Multiple creditors use remaining funds rather than the original negative-cash bug
+  ---
+  duration_ms: 0.11625
+  ...
+# Subtest: Repair combines appraisal eligibility with independent true damage and value
+ok 9 - Repair combines appraisal eligibility with independent true damage and value
+  ---
+  duration_ms: 0.277416
+  ...
+# Subtest: Day highlights rank percentage profit before absolute profit and exclude free gifts
+ok 10 - Day highlights rank percentage profit before absolute profit and exclude free gifts
+  ---
+  duration_ms: 0.121375
+  ...
+# Subtest: Invalid money and dates cannot silently contaminate the account model
+ok 11 - Invalid money and dates cannot silently contaminate the account model
+  ---
+  duration_ms: 0.243583
+  ...
+# Subtest: Visible evidence remains separate from player judgement
+ok 12 - Visible evidence remains separate from player judgement
+  ---
+  duration_ms: 10.92225
+  ...
+# Subtest: Quote settlement preserves money and transfers one item once
+ok 13 - Quote settlement preserves money and transfers one item once
+  ---
+  duration_ms: 15.515209
+  ...
+# Subtest: Invalid quotes never spend money
+ok 14 - Invalid quotes never spend money
+  ---
+  duration_ms: 2.358959
+  ...
+# Subtest: Private slots enforce capacity and reveal value on purchase
+ok 15 - Private slots enforce capacity and reveal value on purchase
+  ---
+  duration_ms: 2.041334
+  ...
+# Subtest: Recorded old stock does not grant the current backpack before purchase
+ok 16 - Recorded old stock does not grant the current backpack before purchase
+  ---
+  duration_ms: 6.851708
+  ...
+# Subtest: Book clicks only navigate to evidenced pages and known tag records
+ok 17 - Book clicks only navigate to evidenced pages and known tag records
+  ---
+  duration_ms: 2.170167
+  ...
+# Subtest: Proving the material after story refusals clears the ordinary negotiation context
+ok 18 - Proving the material after story refusals clears the ordinary negotiation context
+  ---
+  duration_ms: 23.801833
+  ...
+# Subtest: Clearing a live negotiation drops both offer histories without resetting money or evidence
+ok 19 - Clearing a live negotiation drops both offer histories without resetting money or evidence
+  ---
+  duration_ms: 10.011791
+  ...
+# Subtest: Engine display rounds only after the original double estimate; intrinsic value retains precision
+ok 20 - Engine display rounds only after the original double estimate; intrinsic value retains precision
+  ---
+  duration_ms: 6.979084
+  ...
+# Subtest: Every recorded tool readout resolves from independent item facts
+ok 21 - Every recorded tool readout resolves from independent item facts
+  ---
+  duration_ms: 8.306833
+  ...
+# Subtest: Omitted scans remain unknown, non-watch screwdriver remains unsupported
+ok 22 - Omitted scans remain unknown, non-watch screwdriver remains unsupported
+  ---
+  duration_ms: 0.280791
+  ...
+# Subtest: Identical titles do not merge bought and gifted AVAC cards
+ok 23 - Identical titles do not merge bought and gifted AVAC cards
+  ---
+  duration_ms: 0.266541
+  ...
+# Subtest: Explicit ownership links reuse facts for the same item, including a later scan
+ok 24 - Explicit ownership links reuse facts for the same item, including a later scan
+  ---
+  duration_ms: 0.303166
+  ...
+# Subtest: A real omitted or wrong material is detected without using recorded final cards
+ok 25 - A real omitted or wrong material is detected without using recorded final cards
+  ---
+  duration_ms: 0.573375
+  ...
+# Subtest: Recorded final appraisal can itself be wrong: boots retain a counterfeit brand
+ok 26 - Recorded final appraisal can itself be wrong: boots retain a counterfeit brand
+  ---
+  duration_ms: 0.289667
+  ...
+# Subtest: The earlier human texture annotation conflict is preserved, not silently called truth
+ok 27 - The earlier human texture annotation conflict is preserved, not silently called truth
+  ---
+  duration_ms: 0.193
+  ...
+# Subtest: Public and private correct cards have the same correctness, not the same visible price
+ok 28 - Public and private correct cards have the same correctness, not the same visible price
+  ---
+  duration_ms: 0.74675
+  ...
+# Subtest: No-signature readout forbids signature cards; an unidentified glyph stays unresolved
+ok 29 - No-signature readout forbids signature cards; an unidentified glyph stays unresolved
+  ---
+  duration_ms: 0.655292
+  ...
+# Subtest: Year scans distinguish archaeological evidence from unproved national relevance
+ok 30 - Year scans distinguish archaeological evidence from unproved national relevance
+  ---
+  duration_ms: 0.67075
+  ...
+# Subtest: Official condition thresholds preserve legitimate overlap and reject invalid input
+ok 31 - Official condition thresholds preserve legitimate overlap and reject invalid input
+  ---
+  duration_ms: 0.24475
+  ...
+# Subtest: Explicit official facts can be admitted without recorded judgments or hardcoded visit prices
+ok 32 - Explicit official facts can be admitted without recorded judgments or hardcoded visit prices
+  ---
+  duration_ms: 0.179542
+  ...
+# Subtest: Returned evidence cannot mutate the registered item truth
+ok 33 - Returned evidence cannot mutate the registered item truth
+  ---
+  duration_ms: 0.250333
+  ...
+# Subtest: Official facts fill missing scans and retain independent prices and false signatures
+ok 34 - Official facts fill missing scans and retain independent prices and false signatures
+  ---
+  duration_ms: 0.476208
+  ...
+# Subtest: all original cards resolve color/tier background and preserve literal localized content
+ok 35 - all original cards resolve color/tier background and preserve literal localized content
+  ---
+  duration_ms: 180.667083
+  ...
+# Subtest: Unity visual factory uses tier 2 jewel presentation independently of valuation tier
+ok 36 - Unity visual factory uses tier 2 jewel presentation independently of valuation tier
+  ---
+  duration_ms: 0.291375
+  ...
+# Subtest: pink preview and real cards use original 5-tier to 3-sprite mapping
+ok 37 - pink preview and real cards use original 5-tier to 3-sprite mapping
+  ---
+  duration_ms: 0.293625
+  ...
+# Subtest: source highlight and overridden effects retain distinction between notice and active effects
+ok 38 - source highlight and overridden effects retain distinction between notice and active effects
+  ---
+  duration_ms: 14.806833
+  ...
+# Subtest: HSL colors match the independent Windows shader instruction interpreter in 288 cases
+ok 39 - HSL colors match the independent Windows shader instruction interpreter in 288 cases
+  ---
+  duration_ms: 4.413042
+  ...
+# Subtest: RGBA buffer preserves alpha and exact neutral colors while applying HSL offsets
+ok 40 - RGBA buffer preserves alpha and exact neutral colors while applying HSL offsets
+  ---
+  duration_ms: 0.71725
+  ...
+# Subtest: source eye renderers are not recolored by SetSkinColor and default lipstick retains skin tint
+ok 41 - source eye renderers are not recolored by SetSkinColor and default lipstick retains skin tint
+  ---
+  duration_ms: 0.875
+  ...
+# Subtest: all 54 character definitions preserve independent source Appearance tables
+ok 42 - all 54 character definitions preserve independent source Appearance tables
+  ---
+  duration_ms: 11.498625
+  ...
+# Subtest: every source sprite frame is exported; source null animation frames stay null
+ok 43 - every source sprite frame is exported; source null animation frames stay null
+  ---
+  duration_ms: 860.035375
+  ...
+# Subtest: Darcy uses source 203 parts and source trim-aware canvases
+ok 44 - Darcy uses source 203 parts and source trim-aware canvases
+  ---
+  duration_ms: 1.109875
+  ...
+# Subtest: six demographic random generators preserve saved seeds and matching part eligibility
+ok 45 - six demographic random generators preserve saved seeds and matching part eligibility
+  ---
+  duration_ms: 1.620542
+  ...
+# Subtest: 2,016 source DLL Curation selectors and price action sequences agree
+ok 46 - 2,016 source DLL Curation selectors and price action sequences agree
+  ---
+  duration_ms: 134.129709
+  ...
+# Subtest: source success effects only mutate the selected definition context
+ok 47 - source success effects only mutate the selected definition context
+  ---
+  duration_ms: 0.108292
+  ...
+# Subtest: curation selects an unlisted owned instance, survives a pending line reload, and transfers cash and inventory once
+ok 48 - curation selects an unlisted owned instance, survives a pending line reload, and transfers cash and inventory once
+  ---
+  duration_ms: 10.814542
+  ...
+# Subtest: source skip-haggle curation transfers the selected item for zero without an invented sale price
+ok 49 - source skip-haggle curation transfers the selected item for zero without an invented sale price
+  ---
+  duration_ms: 2.381584
+  ...
+# Subtest: 513 independently invoked Windows DLL generation observations agree
+ok 50 - 513 independently invoked Windows DLL generation observations agree
+  ---
+  duration_ms: 5.641167
+  ...
+# Subtest: expensive, fake and forced umbrella bypass daily filters and preserve those lists
+ok 51 - expensive, fake and forced umbrella bypass daily filters and preserve those lists
+  ---
+  duration_ms: 0.158167
+  ...
+# Subtest: top pools and auction midpoint rank candidates before uniform choice
+ok 52 - top pools and auction midpoint rank candidates before uniform choice
+  ---
+  duration_ms: 0.2725
+  ...
+# Subtest: source list syntax, old save compatibility, four-day appraisal threshold and tomorrow umbrella range
+ok 53 - source list syntax, old save compatibility, four-day appraisal threshold and tomorrow umbrella range
+  ---
+  duration_ms: 0.961041
+  ...
+# Subtest: 21 video page aliases stay linked to actual native pages
+ok 54 - 21 video page aliases stay linked to actual native pages
+  ---
+  duration_ms: 0.790417
+  ...
+# Subtest: source SmartFormat conditions and weekly material branch resolve
+ok 55 - source SmartFormat conditions and weekly material branch resolve
+  ---
+  duration_ms: 0.4825
+  ...
+# Subtest: locked manual sections are excluded and hidden child canvases are preserved
+ok 56 - locked manual sections are excluded and hidden child canvases are preserved
+  ---
+  duration_ms: 1.236042
+  ...
+# Subtest: rich text keeps unknown literal angle brackets and source em spacing
+ok 57 - rich text keeps unknown literal angle brackets and source em spacing
+  ---
+  duration_ms: 1.935166
+  ...
+# Subtest: auto size fits brand counter-evidence in its original card rectangle
+ok 58 - auto size fits brand counter-evidence in its original card rectangle
+  ---
+  duration_ms: 0.51025
+  ...
+# Subtest: source rich-size text stays above the celebrity-row divider
+ok 59 - source rich-size text stays above the celebrity-row divider
+  ---
+  duration_ms: 0.402125
+  ...
+# Subtest: external original DLL: all 540 initial quote cases including 1V helper boundaries
+ok 60 - external original DLL: all 540 initial quote cases including 1V helper boundaries
+  ---
+  duration_ms: 25.816584
+  ...
+# Subtest: external original DLL: all 108 modifier quote results and actual counter values
+ok 61 - external original DLL: all 108 modifier quote results and actual counter values
+  ---
+  duration_ms: 4.350666
+  ...
+# Subtest: controller accepts visible frightened offer; raw IO exercises the separate refusal pipe
+ok 62 - controller accepts visible frightened offer; raw IO exercises the separate refusal pipe
+  ---
+  duration_ms: 12.013292
+  ...
+# Subtest: external original DLL: eleven modifier public/private evidence sequences
+ok 63 - external original DLL: eleven modifier public/private evidence sequences
+  ---
+  duration_ms: 30.426042
+  ...
+# Subtest: wrong-card consequences count suggestions even after removing the live label
+ok 64 - wrong-card consequences count suggestions even after removing the live label
+  ---
+  duration_ms: 0.240375
+  ...
+# Subtest: unknown truth is retained explicitly and cannot silently lower public value
+ok 65 - unknown truth is retained explicitly and cannot silently lower public value
+  ---
+  duration_ms: 0.155375
+  ...
+# Subtest: Wishy delayed decision is serialized and resolves exactly once at its due tick
+ok 66 - Wishy delayed decision is serialized and resolves exactly once at its due tick
+  ---
+  duration_ms: 15.975208
+  ...
+# Subtest: new evidence interrupts scheduled price response, and source clear resets actual context
+ok 67 - new evidence interrupts scheduled price response, and source clear resets actual context
+  ---
+  duration_ms: 0.470458
+  ...
+# Subtest: source cheap-sale gate is certain at 90% for 200 independent local seeds
+ok 68 - source cheap-sale gate is certain at 90% for 200 independent local seeds
+  ---
+  duration_ms: 102.823125
+  ...
+# Subtest: both bundle response paths are real plans and preserve RNG across saves
+ok 69 - both bundle response paths are real plans and preserve RNG across saves
+  ---
+  duration_ms: 31.048875
+  ...
+# Subtest: bundle requires another available definition and never chains from additional sale
+ok 70 - bundle requires another available definition and never chains from additional sale
+  ---
+  duration_ms: 0.343458
+  ...
+# Subtest: generated belief filtering matches all five original DLL color/tier/category fixtures
+ok 71 - generated belief filtering matches all five original DLL color/tier/category fixtures
+  ---
+  duration_ms: 0.424916
+  ...
+# Subtest: candidate eligibility differs from final choice, and unreachable original routes remain absent
+ok 72 - candidate eligibility differs from final choice, and unreachable original routes remain absent
+  ---
+  duration_ms: 9.642625
+  ...
+# Subtest: external original DLL: condition boundaries, fake evidence, jewels, signatures and deterministic red cards
+ok 73 - external original DLL: condition boundaries, fake evidence, jewels, signatures and deterministic red cards
+  ---
+  duration_ms: 47.979583
+  ...
+# Subtest: external original DLL: all 25 price sequences are reachable including their counter values
+ok 74 - external original DLL: all 25 price sequences are reachable including their counter values
+  ---
+  duration_ms: 893.232542
+  ...
+# Subtest: external original DLL: 32 delayed outcomes replay source random schedule inputs and cancel on context mutation
+ok 75 - external original DLL: 32 delayed outcomes replay source random schedule inputs and cancel on context mutation
+  ---
+  duration_ms: 75.345
+  ...
+# Subtest: external original DLL: pre-sampled Busy timers and absolute normal timeout ticks
+ok 76 - external original DLL: pre-sampled Busy timers and absolute normal timeout ticks
+  ---
+  duration_ms: 2.310459
+  ...
+# Subtest: external original DLL: all 3654 mandatory-feedback cases across the entire 609-item catalog
+ok 77 - external original DLL: all 3654 mandatory-feedback cases across the entire 609-item catalog
+  ---
+  duration_ms: 400.784917
+  ...
+# Subtest: external original DLL: all 6090 buyer valuations and counter-ratio denominators
+ok 78 - external original DLL: all 6090 buyer valuations and counter-ratio denominators
+  ---
+  duration_ms: 193.144208
+  ...
+# Subtest: external original DLL: all 24 Junuk/SingSing outcome contexts, day gates and score bounds
+ok 79 - external original DLL: all 24 Junuk/SingSing outcome contexts, day gates and score bounds
+  ---
+  duration_ms: 3.050458
+  ...
+# Subtest: source bootstrap is 1000 cash, 1500 debt at 1%, no inferred video inventory
+ok 80 - source bootstrap is 1000 cash, 1500 debt at 1%, no inferred video inventory
+  ---
+  duration_ms: 4.95975
+  ...
+# Subtest: source scheduler distributes four purchases and interposes possible sale/rental/trigger opportunities
+ok 81 - source scheduler distributes four purchases and interposes possible sale/rental/trigger opportunities
+  ---
+  duration_ms: 2.947
+  ...
+# Subtest: trigger counters advance for every candidate, priority selects first and canceled condition resets
+ok 82 - trigger counters advance for every candidate, priority selects first and canceled condition resets
+  ---
+  duration_ms: 0.243708
+  ...
+# Subtest: expression parser handles source context expressions without executing JavaScript
+ok 83 - expression parser handles source context expressions without executing JavaScript
+  ---
+  duration_ms: 0.251875
+  ...
+# Subtest: branch decisions occur after earlier effects, choices apply only selected operations and resume after JSON serialization
+ok 84 - branch decisions occur after earlier effects, choices apply only selected operations and resume after JSON serialization
+  ---
+  duration_ms: 5.491208
+  ...
+# Subtest: daily bankruptcy uses true assets, report reward decays, rental accepts only native bounds
+ok 85 - daily bankruptcy uses true assets, report reward decays, rental accepts only native bounds
+  ---
+  duration_ms: 0.2115
+  ...
+# Subtest: visitor flower 2 adds 0.3 before damaged-store halving; Hoochoo adds no unproved belief effect
+ok 86 - visitor flower 2 adds 0.3 before damaged-store halving; Hoochoo adds no unproved belief effect
+  ---
+  duration_ms: 0.112959
+  ...
+# Subtest: auction source nationalhis/national mismatch remains observable and fees use native float32 truncation
+ok 87 - auction source nationalhis/national mismatch remains observable and fees use native float32 truncation
+  ---
+  duration_ms: 0.164709
+  ...
+# Subtest: demo completes day1–3 with twelve generated purchases, balanced ledger, and resumes a live line identically
+ok 88 - demo completes day1–3 with twelve generated purchases, balanced ledger, and resumes a live line identically
+  ---
+  duration_ms: 951.567458
+  ...
+# Subtest: challenge executes 30 purchase attempts, five street stops, then a one-time native result
+ok 89 - challenge executes 30 purchase attempts, five street stops, then a one-time native result
+  ---
+  duration_ms: 254.865167
+  ...
+# Subtest: repair batch capacity and daily service use survive reload, and repaired native facts change once
+ok 90 - repair batch capacity and daily service use survive reload, and repaired native facts change once
+  ---
+  duration_ms: 1.895084
+  ...
+# Subtest: flower replacement pays exact source price and resets, never adds, lifespan
+ok 91 - flower replacement pays exact source price and resets, never adds, lifespan
+  ---
+  duration_ms: 1.064625
+  ...
+# Subtest: challenge points include final cash and preserve source purchase-ratio sale-counter quirk
+ok 92 - challenge points include final cash and preserve source purchase-ratio sale-counter quirk
+  ---
+  duration_ms: 0.084583
+  ...
+# Subtest: rental request creates an actual visitor and cheap quote transfers use, not ownership, exactly once
+ok 93 - rental request creates an actual visitor and cheap quote transfers use, not ownership, exactly once
+  ---
+  duration_ms: 1.115208
+  ...
+# Subtest: player give-up runs original guidance chunk without ending incomplete D06 appraisal
+ok 94 - player give-up runs original guidance chunk without ending incomplete D06 appraisal
+  ---
+  duration_ms: 0.794292
+  ...
+# Subtest: store scope allows tools during zero-extra-interaction waits and card waits match the exact payload
+ok 95 - store scope allows tools during zero-extra-interaction waits and card waits match the exact payload
+  ---
+  duration_ms: 0.677958
+  ...
+# Subtest: manual story completion preserves the exact buyer and quitter contexts without an invented transfer
+ok 96 - manual story completion preserves the exact buyer and quitter contexts without an invented transfer
+  ---
+  duration_ms: 0.504292
+  ...
+# Subtest: a new private material fact preserves public belief and repeated assume toggles the private card
+ok 97 - a new private material fact preserves public belief and repeated assume toggles the private card
+  ---
+  duration_ms: 1.237542
+  ...
+# Subtest: complete serialized 609 × 252 appraisal matrix matches original DLL
+ok 98 - complete serialized 609 × 252 appraisal matrix matches original DLL
+  ---
+  duration_ms: 586.013042
+  ...
+# Subtest: all raw affine effects and original factory divergences
+ok 99 - all raw affine effects and original factory divergences
+  ---
+  duration_ms: 3.279375
+  ...
+# Subtest: all 609 serialized item values and refined source order
+ok 100 - all 609 serialized item values and refined source order
+  ---
+  duration_ms: 15.099416
+  ...
+# Subtest: all 1616 original condition boundaries, including exact-card shortcut
+ok 101 - all 1616 original condition boundaries, including exact-card shortcut
+  ---
+  duration_ms: 62.749083
+  ...
+# Subtest: dynamic jewelry reproduces source price defect and rejects unsupported cuts
+ok 102 - dynamic jewelry reproduces source price defect and rejects unsupported cuts
+  ---
+  duration_ms: 0.833708
+  ...
+# Subtest: original script DLL 0: D01_1_haggle_darcy
+ok 103 - original script DLL 0: D01_1_haggle_darcy
+  ---
+  duration_ms: 3.405542
+  ...
+# Subtest: original script DLL 1: D01_1_haggle_darcy
+ok 104 - original script DLL 1: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.58325
+  ...
+# Subtest: original script DLL 2: D01_1_haggle_darcy
+ok 105 - original script DLL 2: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.420208
+  ...
+# Subtest: original script DLL 3: D01_1_haggle_darcy
+ok 106 - original script DLL 3: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.349959
+  ...
+# Subtest: original script DLL 4: D01_1_haggle_darcy
+ok 107 - original script DLL 4: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.261042
+  ...
+# Subtest: original script DLL 5: D01_2_stock_hue
+ok 108 - original script DLL 5: D01_2_stock_hue
+  ---
+  duration_ms: 5.928042
+  ...
+# Subtest: original script DLL 6: D01_2_stock_hue
+ok 109 - original script DLL 6: D01_2_stock_hue
+  ---
+  duration_ms: 26.018209
+  ...
+# Subtest: original script DLL 7: D01_2_stock_hue
+ok 110 - original script DLL 7: D01_2_stock_hue
+  ---
+  duration_ms: 0.751417
+  ...
+# Subtest: original script DLL 8: D01_2_stock_hue
+ok 111 - original script DLL 8: D01_2_stock_hue
+  ---
+  duration_ms: 0.298459
+  ...
+# Subtest: original script DLL 9: D01_2_stock_hue
+ok 112 - original script DLL 9: D01_2_stock_hue
+  ---
+  duration_ms: 0.400875
+  ...
+# Subtest: original script DLL 10: D01_2_stock_hue
+ok 113 - original script DLL 10: D01_2_stock_hue
+  ---
+  duration_ms: 0.269625
+  ...
+# Subtest: original script DLL 11: D01_2_stock_hue
+ok 114 - original script DLL 11: D01_2_stock_hue
+  ---
+  duration_ms: 0.158625
+  ...
+# Subtest: original script DLL 12: D01_2_stock_hue
+ok 115 - original script DLL 12: D01_2_stock_hue
+  ---
+  duration_ms: 0.276334
+  ...
+# Subtest: original script DLL 13: D01_2_stock_hue
+ok 116 - original script DLL 13: D01_2_stock_hue
+  ---
+  duration_ms: 0.303667
+  ...
+# Subtest: original script DLL 14: D02_firstassess_condition
+ok 117 - original script DLL 14: D02_firstassess_condition
+  ---
+  duration_ms: 1.228333
+  ...
+# Subtest: original script DLL 15: D02_firstassess_condition
+ok 118 - original script DLL 15: D02_firstassess_condition
+  ---
+  duration_ms: 0.143
+  ...
+# Subtest: original script DLL 16: D02_firstassess_condition
+ok 119 - original script DLL 16: D02_firstassess_condition
+  ---
+  duration_ms: 0.242292
+  ...
+# Subtest: original script DLL 17: D03_firstassess_material_after
+ok 120 - original script DLL 17: D03_firstassess_material_after
+  ---
+  duration_ms: 0.746125
+  ...
+# Subtest: original script DLL 18: D03_firstassess_material_after
+ok 121 - original script DLL 18: D03_firstassess_material_after
+  ---
+  duration_ms: 0.147
+  ...
+# Subtest: original script DLL 19: D03_unwillingSon
+ok 122 - original script DLL 19: D03_unwillingSon
+  ---
+  duration_ms: 0.193708
+  ...
+# Subtest: original script DLL 20: D03_unwillingSon
+ok 123 - original script DLL 20: D03_unwillingSon
+  ---
+  duration_ms: 0.130625
+  ...
+# Subtest: original script DLL 21: D03_unwillingSon
+ok 124 - original script DLL 21: D03_unwillingSon
+  ---
+  duration_ms: 0.136625
+  ...
+# Subtest: original script DLL 22: D08_unwillingHusband
+ok 125 - original script DLL 22: D08_unwillingHusband
+  ---
+  duration_ms: 0.129959
+  ...
+# Subtest: original script DLL 23: D08_unwillingHusband
+ok 126 - original script DLL 23: D08_unwillingHusband
+  ---
+  duration_ms: 0.2965
+  ...
+# Subtest: original script DLL 24: D08_unwillingHusband
+ok 127 - original script DLL 24: D08_unwillingHusband
+  ---
+  duration_ms: 0.137917
+  ...
+# Subtest: original script DLL 25: D13_unwillingDaughter
+ok 128 - original script DLL 25: D13_unwillingDaughter
+  ---
+  duration_ms: 0.137083
+  ...
+# Subtest: original script DLL 26: D13_unwillingDaughter
+ok 129 - original script DLL 26: D13_unwillingDaughter
+  ---
+  duration_ms: 0.113875
+  ...
+# Subtest: original script DLL 27: D13_unwillingDaughter
+ok 130 - original script DLL 27: D13_unwillingDaughter
+  ---
+  duration_ms: 0.111083
+  ...
+# Subtest: original script DLL 28: D18_unwillingWife
+ok 131 - original script DLL 28: D18_unwillingWife
+  ---
+  duration_ms: 0.116459
+  ...
+# Subtest: original script DLL 29: D18_unwillingWife
+ok 132 - original script DLL 29: D18_unwillingWife
+  ---
+  duration_ms: 0.105458
+  ...
+# Subtest: original script DLL 30: D18_unwillingWife
+ok 133 - original script DLL 30: D18_unwillingWife
+  ---
+  duration_ms: 0.101792
+  ...
+# Subtest: original script DLL 31: D04_year_archae_after
+ok 134 - original script DLL 31: D04_year_archae_after
+  ---
+  duration_ms: 0.598958
+  ...
+# Subtest: original script DLL 32: D04_year_archae_after
+ok 135 - original script DLL 32: D04_year_archae_after
+  ---
+  duration_ms: 0.429042
+  ...
+# Subtest: original script DLL 33: D04_year_national_after
+ok 136 - original script DLL 33: D04_year_national_after
+  ---
+  duration_ms: 0.253084
+  ...
+# Subtest: original script DLL 34: D05_sign_after
+ok 137 - original script DLL 34: D05_sign_after
+  ---
+  duration_ms: 0.311041
+  ...
+# Subtest: original script DLL 35: D05_sign_after
+ok 138 - original script DLL 35: D05_sign_after
+  ---
+  duration_ms: 0.1595
+  ...
+# Subtest: original script DLL 36: D05_sign_after
+ok 139 - original script DLL 36: D05_sign_after
+  ---
+  duration_ms: 0.088667
+  ...
+# Subtest: original script DLL 37: D06_2_brand_hue
+ok 140 - original script DLL 37: D06_2_brand_hue
+  ---
+  duration_ms: 0.100167
+  ...
+# Subtest: original script DLL 38: D06_2_brand_hue
+ok 141 - original script DLL 38: D06_2_brand_hue
+  ---
+  duration_ms: 0.160792
+  ...
+# Subtest: original script DLL 39: D06_brand_after
+ok 142 - original script DLL 39: D06_brand_after
+  ---
+  duration_ms: 1.367916
+  ...
+# Subtest: original script DLL 40: D07_choi
+ok 143 - original script DLL 40: D07_choi
+  ---
+  duration_ms: 0.224875
+  ...
+# Subtest: original script DLL 41: D07_choi
+ok 144 - original script DLL 41: D07_choi
+  ---
+  duration_ms: 0.121208
+  ...
+# Subtest: original script DLL 42: D07_choi
+ok 145 - original script DLL 42: D07_choi
+  ---
+  duration_ms: 0.095792
+  ...
+# Subtest: original script DLL 43: D07_choi
+ok 146 - original script DLL 43: D07_choi
+  ---
+  duration_ms: 0.108833
+  ...
+# Subtest: original script DLL 44: D07_choi
+ok 147 - original script DLL 44: D07_choi
+  ---
+  duration_ms: 0.163625
+  ...
+# Subtest: original script DLL 45: D08_art_hue
+ok 148 - original script DLL 45: D08_art_hue
+  ---
+  duration_ms: 0.332167
+  ...
+# Subtest: original script DLL 46: D08_art_hue
+ok 149 - original script DLL 46: D08_art_hue
+  ---
+  duration_ms: 0.2765
+  ...
+# Subtest: original script DLL 47: D08_art_hue
+ok 150 - original script DLL 47: D08_art_hue
+  ---
+  duration_ms: 0.108125
+  ...
+# Subtest: original script DLL 48: D08_art_after
+ok 151 - original script DLL 48: D08_art_after
+  ---
+  duration_ms: 1.937916
+  ...
+# Subtest: original script DLL 49: D08_art_after
+ok 152 - original script DLL 49: D08_art_after
+  ---
+  duration_ms: 0.307125
+  ...
+# Subtest: original script DLL 50: D08_art_after
+ok 153 - original script DLL 50: D08_art_after
+  ---
+  duration_ms: 0.310542
+  ...
+# Subtest: original script DLL 51: D08_art_after
+ok 154 - original script DLL 51: D08_art_after
+  ---
+  duration_ms: 0.235292
+  ...
+# Subtest: original script DLL 52: D08_yeongi
+ok 155 - original script DLL 52: D08_yeongi
+  ---
+  duration_ms: 0.124417
+  ...
+# Subtest: original script DLL 53: D08_yeongi
+ok 156 - original script DLL 53: D08_yeongi
+  ---
+  duration_ms: 0.102459
+  ...
+# Subtest: original script DLL 54: D08_yeongi
+ok 157 - original script DLL 54: D08_yeongi
+  ---
+  duration_ms: 0.099125
+  ...
+# Subtest: original script DLL 55: D08_yeongi
+ok 158 - original script DLL 55: D08_yeongi
+  ---
+  duration_ms: 0.102292
+  ...
+# Subtest: original script DLL 56: D08_yeongi
+ok 159 - original script DLL 56: D08_yeongi
+  ---
+  duration_ms: 0.102166
+  ...
+# Subtest: original script DLL 57: D11_private_after
+ok 160 - original script DLL 57: D11_private_after
+  ---
+  duration_ms: 1.0835
+  ...
+# Subtest: original script DLL 58: D11_private_after
+ok 161 - original script DLL 58: D11_private_after
+  ---
+  duration_ms: 0.688917
+  ...
+# Subtest: original script DLL 59: D11_privateslot_darcy
+ok 162 - original script DLL 59: D11_privateslot_darcy
+  ---
+  duration_ms: 0.18825
+  ...
+# Subtest: original script DLL 60: D20_preAvarice301
+ok 163 - original script DLL 60: D20_preAvarice301
+  ---
+  duration_ms: 0.308291
+  ...
+# Subtest: original script DLL 61: D21_preAvarice302
+ok 164 - original script DLL 61: D21_preAvarice302
+  ---
+  duration_ms: 55.124709
+  ...
+# Subtest: original script DLL 62: begToBuy2
+ok 165 - original script DLL 62: begToBuy2
+  ---
+  duration_ms: 7.002292
+  ...
+# Subtest: original script DLL 63: begToBuyAndWait5_1
+ok 166 - original script DLL 63: begToBuyAndWait5_1
+  ---
+  duration_ms: 1.129833
+  ...
+# Subtest: original script DLL 64: cityChat_angbuilgu
+ok 167 - original script DLL 64: cityChat_angbuilgu
+  ---
+  duration_ms: 0.395833
+  ...
+# Subtest: original script DLL 65: driver_after
+ok 168 - original script DLL 65: driver_after
+  ---
+  duration_ms: 0.851417
+  ...
+# Subtest: original script DLL 66: forVid
+ok 169 - original script DLL 66: forVid
+  ---
+  duration_ms: 0.345208
+  ...
+# Subtest: original script DLL 67: junar1
+ok 170 - original script DLL 67: junar1
+  ---
+  duration_ms: 0.19975
+  ...
+# Subtest: original script DLL 68: junar1
+ok 171 - original script DLL 68: junar1
+  ---
+  duration_ms: 0.11325
+  ...
+# Subtest: original script DLL 69: junar1
+ok 172 - original script DLL 69: junar1
+  ---
+  duration_ms: 0.109291
+  ...
+# Subtest: original script DLL 70: junar1
+ok 173 - original script DLL 70: junar1
+  ---
+  duration_ms: 0.103542
+  ...
+# Subtest: original script DLL 71: junar1
+ok 174 - original script DLL 71: junar1
+  ---
+  duration_ms: 0.107792
+  ...
+# Subtest: original script DLL 72: junar1
+ok 175 - original script DLL 72: junar1
+  ---
+  duration_ms: 0.806167
+  ...
+# Subtest: original script DLL 73: junar1
+ok 176 - original script DLL 73: junar1
+  ---
+  duration_ms: 0.370125
+  ...
+# Subtest: original script DLL 74: junar1
+ok 177 - original script DLL 74: junar1
+  ---
+  duration_ms: 0.238542
+  ...
+# Subtest: original script DLL 75: junar1
+ok 178 - original script DLL 75: junar1
+  ---
+  duration_ms: 0.19075
+  ...
+# Subtest: original script DLL 76: junar1
+ok 179 - original script DLL 76: junar1
+  ---
+  duration_ms: 0.168292
+  ...
+# Subtest: original script DLL 77: junar1
+ok 180 - original script DLL 77: junar1
+  ---
+  duration_ms: 0.200125
+  ...
+# Subtest: original script DLL 78: junar1
+ok 181 - original script DLL 78: junar1
+  ---
+  duration_ms: 0.48275
+  ...
+# Subtest: original script DLL 79: junar1
+ok 182 - original script DLL 79: junar1
+  ---
+  duration_ms: 0.175083
+  ...
+# Subtest: original script DLL 80: junar1
+ok 183 - original script DLL 80: junar1
+  ---
+  duration_ms: 16.004542
+  ...
+# Subtest: original script DLL 81: junar1
+ok 184 - original script DLL 81: junar1
+  ---
+  duration_ms: 0.262917
+  ...
+# Subtest: original script DLL 82: junar1
+ok 185 - original script DLL 82: junar1
+  ---
+  duration_ms: 0.179042
+  ...
+# Subtest: original script DLL 83: junar2
+ok 186 - original script DLL 83: junar2
+  ---
+  duration_ms: 1.7515
+  ...
+# Subtest: original script DLL 84: junar2
+ok 187 - original script DLL 84: junar2
+  ---
+  duration_ms: 0.232666
+  ...
+# Subtest: original script DLL 85: junar2
+ok 188 - original script DLL 85: junar2
+  ---
+  duration_ms: 0.157541
+  ...
+# Subtest: original script DLL 86: junar2
+ok 189 - original script DLL 86: junar2
+  ---
+  duration_ms: 0.124833
+  ...
+# Subtest: original script DLL 87: junar2
+ok 190 - original script DLL 87: junar2
+  ---
+  duration_ms: 0.0955
+  ...
+# Subtest: original script DLL 88: junar2
+ok 191 - original script DLL 88: junar2
+  ---
+  duration_ms: 1.103209
+  ...
+# Subtest: original script DLL 89: junar2
+ok 192 - original script DLL 89: junar2
+  ---
+  duration_ms: 0.158833
+  ...
+# Subtest: original script DLL 90: junar2
+ok 193 - original script DLL 90: junar2
+  ---
+  duration_ms: 0.18975
+  ...
+# Subtest: original script DLL 91: junar2
+ok 194 - original script DLL 91: junar2
+  ---
+  duration_ms: 0.154167
+  ...
+# Subtest: original script DLL 92: junar2
+ok 195 - original script DLL 92: junar2
+  ---
+  duration_ms: 0.141333
+  ...
+# Subtest: original script DLL 93: junar2
+ok 196 - original script DLL 93: junar2
+  ---
+  duration_ms: 0.139125
+  ...
+# Subtest: original script DLL 94: junar2
+ok 197 - original script DLL 94: junar2
+  ---
+  duration_ms: 0.134291
+  ...
+# Subtest: original script DLL 95: junar2
+ok 198 - original script DLL 95: junar2
+  ---
+  duration_ms: 0.139084
+  ...
+# Subtest: original script DLL 96: junar2
+ok 199 - original script DLL 96: junar2
+  ---
+  duration_ms: 0.133417
+  ...
+# Subtest: original script DLL 97: junar2
+ok 200 - original script DLL 97: junar2
+  ---
+  duration_ms: 0.136791
+  ...
+# Subtest: original script DLL 98: junar2
+ok 201 - original script DLL 98: junar2
+  ---
+  duration_ms: 0.130042
+  ...
+# Subtest: original script DLL 99: junar3
+ok 202 - original script DLL 99: junar3
+  ---
+  duration_ms: 0.151041
+  ...
+# Subtest: original script DLL 100: junar3
+ok 203 - original script DLL 100: junar3
+  ---
+  duration_ms: 0.094625
+  ...
+# Subtest: original script DLL 101: junar3
+ok 204 - original script DLL 101: junar3
+  ---
+  duration_ms: 0.087209
+  ...
+# Subtest: original script DLL 102: junar3
+ok 205 - original script DLL 102: junar3
+  ---
+  duration_ms: 0.08375
+  ...
+# Subtest: original script DLL 103: junar3
+ok 206 - original script DLL 103: junar3
+  ---
+  duration_ms: 0.078416
+  ...
+# Subtest: original script DLL 104: junar3
+ok 207 - original script DLL 104: junar3
+  ---
+  duration_ms: 0.5505
+  ...
+# Subtest: original script DLL 105: junar3
+ok 208 - original script DLL 105: junar3
+  ---
+  duration_ms: 0.144167
+  ...
+# Subtest: original script DLL 106: junar3
+ok 209 - original script DLL 106: junar3
+  ---
+  duration_ms: 0.149667
+  ...
+# Subtest: original script DLL 107: junar3
+ok 210 - original script DLL 107: junar3
+  ---
+  duration_ms: 0.13775
+  ...
+# Subtest: original script DLL 108: junar3
+ok 211 - original script DLL 108: junar3
+  ---
+  duration_ms: 0.14825
+  ...
+# Subtest: original script DLL 109: junar3
+ok 212 - original script DLL 109: junar3
+  ---
+  duration_ms: 0.130792
+  ...
+# Subtest: original script DLL 110: junar3
+ok 213 - original script DLL 110: junar3
+  ---
+  duration_ms: 0.146041
+  ...
+# Subtest: original script DLL 111: junar3
+ok 214 - original script DLL 111: junar3
+  ---
+  duration_ms: 0.149333
+  ...
+# Subtest: original script DLL 112: junar3
+ok 215 - original script DLL 112: junar3
+  ---
+  duration_ms: 0.142583
+  ...
+# Subtest: original script DLL 113: junar3
+ok 216 - original script DLL 113: junar3
+  ---
+  duration_ms: 0.141125
+  ...
+# Subtest: original script DLL 114: junar3
+ok 217 - original script DLL 114: junar3
+  ---
+  duration_ms: 0.143917
+  ...
+# Subtest: original script DLL 115: kanasian1
+ok 218 - original script DLL 115: kanasian1
+  ---
+  duration_ms: 0.156666
+  ...
+# Subtest: original script DLL 116: kanasian1
+ok 219 - original script DLL 116: kanasian1
+  ---
+  duration_ms: 0.095625
+  ...
+# Subtest: original script DLL 117: kanasian1
+ok 220 - original script DLL 117: kanasian1
+  ---
+  duration_ms: 0.092458
+  ...
+# Subtest: original script DLL 118: kanasian1
+ok 221 - original script DLL 118: kanasian1
+  ---
+  duration_ms: 0.089042
+  ...
+# Subtest: original script DLL 119: kanasian1
+ok 222 - original script DLL 119: kanasian1
+  ---
+  duration_ms: 0.082875
+  ...
+# Subtest: original script DLL 120: kanasian1
+ok 223 - original script DLL 120: kanasian1
+  ---
+  duration_ms: 0.837083
+  ...
+# Subtest: original script DLL 121: kanasian1
+ok 224 - original script DLL 121: kanasian1
+  ---
+  duration_ms: 0.196875
+  ...
+# Subtest: original script DLL 122: kanasian1
+ok 225 - original script DLL 122: kanasian1
+  ---
+  duration_ms: 1.874375
+  ...
+# Subtest: original script DLL 123: kanasian1
+ok 226 - original script DLL 123: kanasian1
+  ---
+  duration_ms: 0.21425
+  ...
+# Subtest: original script DLL 124: kanasian1
+ok 227 - original script DLL 124: kanasian1
+  ---
+  duration_ms: 0.1765
+  ...
+# Subtest: original script DLL 125: kanasian1
+ok 228 - original script DLL 125: kanasian1
+  ---
+  duration_ms: 0.158541
+  ...
+# Subtest: original script DLL 126: kanasian1
+ok 229 - original script DLL 126: kanasian1
+  ---
+  duration_ms: 0.156625
+  ...
+# Subtest: original script DLL 127: kanasian1
+ok 230 - original script DLL 127: kanasian1
+  ---
+  duration_ms: 0.153625
+  ...
+# Subtest: original script DLL 128: kanasian1
+ok 231 - original script DLL 128: kanasian1
+  ---
+  duration_ms: 0.180625
+  ...
+# Subtest: original script DLL 129: kanasian1
+ok 232 - original script DLL 129: kanasian1
+  ---
+  duration_ms: 0.150791
+  ...
+# Subtest: original script DLL 130: kanasian1
+ok 233 - original script DLL 130: kanasian1
+  ---
+  duration_ms: 0.1465
+  ...
+# Subtest: original script DLL 131: kanasian2
+ok 234 - original script DLL 131: kanasian2
+  ---
+  duration_ms: 0.176041
+  ...
+# Subtest: original script DLL 132: kanasian2
+ok 235 - original script DLL 132: kanasian2
+  ---
+  duration_ms: 0.100625
+  ...
+# Subtest: original script DLL 133: kanasian2
+ok 236 - original script DLL 133: kanasian2
+  ---
+  duration_ms: 48.438416
+  ...
+# Subtest: original script DLL 134: kanasian2
+ok 237 - original script DLL 134: kanasian2
+  ---
+  duration_ms: 1.502042
+  ...
+# Subtest: original script DLL 135: kanasian2
+ok 238 - original script DLL 135: kanasian2
+  ---
+  duration_ms: 0.215291
+  ...
+# Subtest: original script DLL 136: kanasian2
+ok 239 - original script DLL 136: kanasian2
+  ---
+  duration_ms: 0.603125
+  ...
+# Subtest: original script DLL 137: kanasian2
+ok 240 - original script DLL 137: kanasian2
+  ---
+  duration_ms: 0.17375
+  ...
+# Subtest: original script DLL 138: kanasian2
+ok 241 - original script DLL 138: kanasian2
+  ---
+  duration_ms: 0.185625
+  ...
+# Subtest: original script DLL 139: kanasian2
+ok 242 - original script DLL 139: kanasian2
+  ---
+  duration_ms: 0.186792
+  ...
+# Subtest: original script DLL 140: kanasian2
+ok 243 - original script DLL 140: kanasian2
+  ---
+  duration_ms: 0.169333
+  ...
+# Subtest: original script DLL 141: kanasian2
+ok 244 - original script DLL 141: kanasian2
+  ---
+  duration_ms: 0.149875
+  ...
+# Subtest: original script DLL 142: kanasian2
+ok 245 - original script DLL 142: kanasian2
+  ---
+  duration_ms: 0.190292
+  ...
+# Subtest: original script DLL 143: kanasian2
+ok 246 - original script DLL 143: kanasian2
+  ---
+  duration_ms: 0.155375
+  ...
+# Subtest: original script DLL 144: kanasian2
+ok 247 - original script DLL 144: kanasian2
+  ---
+  duration_ms: 0.152042
+  ...
+# Subtest: original script DLL 145: kanasian2
+ok 248 - original script DLL 145: kanasian2
+  ---
+  duration_ms: 0.170542
+  ...
+# Subtest: original script DLL 146: kanasian2
+ok 249 - original script DLL 146: kanasian2
+  ---
+  duration_ms: 8.415041
+  ...
+# Subtest: original script DLL 147: kanasian3
+ok 250 - original script DLL 147: kanasian3
+  ---
+  duration_ms: 0.235416
+  ...
+# Subtest: original script DLL 148: kanasian3
+ok 251 - original script DLL 148: kanasian3
+  ---
+  duration_ms: 0.108667
+  ...
+# Subtest: original script DLL 149: kanasian3
+ok 252 - original script DLL 149: kanasian3
+  ---
+  duration_ms: 0.126125
+  ...
+# Subtest: original script DLL 150: kanasian3
+ok 253 - original script DLL 150: kanasian3
+  ---
+  duration_ms: 0.121125
+  ...
+# Subtest: original script DLL 151: kanasian3
+ok 254 - original script DLL 151: kanasian3
+  ---
+  duration_ms: 0.086917
+  ...
+# Subtest: original script DLL 152: kanasian3
+ok 255 - original script DLL 152: kanasian3
+  ---
+  duration_ms: 0.537125
+  ...
+# Subtest: original script DLL 153: kanasian3
+ok 256 - original script DLL 153: kanasian3
+  ---
+  duration_ms: 0.153125
+  ...
+# Subtest: original script DLL 154: kanasian3
+ok 257 - original script DLL 154: kanasian3
+  ---
+  duration_ms: 0.150458
+  ...
+# Subtest: original script DLL 155: kanasian3
+ok 258 - original script DLL 155: kanasian3
+  ---
+  duration_ms: 0.133833
+  ...
+# Subtest: original script DLL 156: kanasian3
+ok 259 - original script DLL 156: kanasian3
+  ---
+  duration_ms: 0.1295
+  ...
+# Subtest: original script DLL 157: kanasian3
+ok 260 - original script DLL 157: kanasian3
+  ---
+  duration_ms: 0.131583
+  ...
+# Subtest: original script DLL 158: kanasian3
+ok 261 - original script DLL 158: kanasian3
+  ---
+  duration_ms: 0.147542
+  ...
+# Subtest: original script DLL 159: kanasian3
+ok 262 - original script DLL 159: kanasian3
+  ---
+  duration_ms: 0.129
+  ...
+# Subtest: original script DLL 160: kanasian3
+ok 263 - original script DLL 160: kanasian3
+  ---
+  duration_ms: 0.127292
+  ...
+# Subtest: original script DLL 161: kanasian3
+ok 264 - original script DLL 161: kanasian3
+  ---
+  duration_ms: 0.137833
+  ...
+# Subtest: original script DLL 162: kanasian3
+ok 265 - original script DLL 162: kanasian3
+  ---
+  duration_ms: 2.008084
+  ...
+# Subtest: original script DLL 163: D01_1_haggle_darcy
+ok 266 - original script DLL 163: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.16175
+  ...
+# Subtest: original script DLL 164: D01_1_haggle_darcy
+ok 267 - original script DLL 164: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.104709
+  ...
+# Subtest: original script DLL 165: D01_1_haggle_darcy
+ok 268 - original script DLL 165: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.089208
+  ...
+# Subtest: original script DLL 166: D01_1_haggle_darcy
+ok 269 - original script DLL 166: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.083167
+  ...
+# Subtest: original script DLL 167: D01_1_haggle_darcy
+ok 270 - original script DLL 167: D01_1_haggle_darcy
+  ---
+  duration_ms: 0.080833
+  ...
+# Subtest: all 32 source registry identities have independent original-DLL sequences
+ok 271 - all 32 source registry identities have independent original-DLL sequences
+  ---
+  duration_ms: 0.105542
+  ...
+# Subtest: script closures and pending effects survive save/load, and drain consumes once
+ok 272 - script closures and pending effects survive save/load, and drain consumes once
+  ---
+  duration_ms: 0.835125
+  ...
+# Subtest: 144 independent original IO success/fail end-state cases: reporting, appraisal flags, fraud, visitors and persistence
+ok 273 - 144 independent original IO success/fail end-state cases: reporting, appraisal flags, fraud, visitors and persistence
+  ---
+  duration_ms: 30.967583
+  ...
+# Subtest: all 29 source purchase components are executable through their resolved callbacks
+ok 274 - all 29 source purchase components are executable through their resolved callbacks
+  ---
+  duration_ms: 287.78575
+  ...
+# Subtest: source entry gates keep early repair, auction, estate and CityChat closed; GEM is separate
+ok 275 - source entry gates keep early repair, auction, estate and CityChat closed; GEM is separate
+  ---
+  duration_ms: 0.85425
+  ...
+# Subtest: owned styles are selected without repeat charge after save/load; locked styles and insufficient funds do nothing
+ok 276 - owned styles are selected without repeat charge after save/load; locked styles and insufficient funds do nothing
+  ---
+  duration_ms: 83.866666
+  ...
+# Subtest: buying a new home refunds half the prior house and stops rent using original branch effects
+ok 277 - buying a new home refunds half the prior house and stops rent using original branch effects
+  ---
+  duration_ms: 10.087875
+  ...
+# Subtest: street E actions apply the source day boundary, night closure and shared GEM/CityChat doorway
+ok 278 - street E actions apply the source day boundary, night closure and shared GEM/CityChat doorway
+  ---
+  duration_ms: 4.475666
+  ...
+# Subtest: B2 walking reaches both original right-hand doors and B3 connects back by its right stair
+ok 279 - B2 walking reaches both original right-hand doors and B3 connects back by its right stair
+  ---
+  duration_ms: 68.386625
+  ...
+# Subtest: nine source doorway transforms round-trip under the source PixelPerfect street projection
+ok 280 - nine source doorway transforms round-trip under the source PixelPerfect street projection
+  ---
+  duration_ms: 0.225875
+  ...
+# Subtest: SetFlowers reparents the selected tuple into its three serialized positions and moves other product roots away
+ok 281 - SetFlowers reparents the selected tuple into its three serialized positions and moves other product roots away
+  ---
+  duration_ms: 0.2515
+  ...
+# Subtest: displayed flower hotspot moves with its source renderer while logic-only purchases never become fake shelf hotspots
+ok 282 - displayed flower hotspot moves with its source renderer while logic-only purchases never become fake shelf hotspots
+  ---
+  duration_ms: 0.912625
+  ...
+# Subtest: interior interaction helper keeps source NPC/exit regions and suppresses automatic entry-only trigger bounds
+ok 283 - interior interaction helper keeps source NPC/exit regions and suppresses automatic entry-only trigger bounds
+  ---
+  duration_ms: 0.447709
+  ...
+# Subtest: all 609 definitions expose source tool capabilities and actual images
+ok 284 - all 609 definitions expose source tool capabilities and actual images
+  ---
+  duration_ms: 168.004542
+  ...
+# Subtest: source book navigation respects preserved pages and Shift
+ok 285 - source book navigation respects preserved pages and Shift
+  ---
+  duration_ms: 0.116667
+  ...
+# Subtest: scanner private capacity and repeat certificate failures do not reveal NPC truth
+ok 286 - scanner private capacity and repeat certificate failures do not reveal NPC truth
+  ---
+  duration_ms: 0.612334
+  ...
+# Subtest: all 77 native pages and inline atlas dependencies exist with source targets
+ok 287 - all 77 native pages and inline atlas dependencies exist with source targets
+  ---
+  duration_ms: 10.616375
+  ...
+# Subtest: negotiation separates demo-derived facts from provisional behavior and outcome data
+ok 288 - negotiation separates demo-derived facts from provisional behavior and outcome data
+  ---
+  duration_ms: 8.992291
+  ...
+# Subtest: same seed and input reproduce decisions through serialization
+ok 289 - same seed and input reproduce decisions through serialization
+  ---
+  duration_ms: 2.043417
+  ...
+# Subtest: irrelevant injected source prices cannot alter the model
+ok 290 - irrelevant injected source prices cannot alter the model
+  ---
+  duration_ms: 0.417583
+  ...
+# Subtest: a different seed can vary temperament without depending on visit order
+ok 291 - a different seed can vary temperament without depending on visit order
+  ---
+  duration_ms: 0.94425
+  ...
+# Subtest: independent value scale changes the actual ask, not a recorded target
+ok 292 - independent value scale changes the actual ask, not a recorded target
+  ---
+  duration_ms: 0.215333
+  ...
+# Subtest: correct public appraisal can change acceptance while private value stays private
+ok 293 - correct public appraisal can change acceptance while private value stays private
+  ---
+  duration_ms: 0.604458
+  ...
+# Subtest: lower positive offers cannot immediately buy valuable goods; repeated insults terminate
+ok 294 - lower positive offers cannot immediately buy valuable goods; repeated insults terminate
+  ---
+  duration_ms: 0.274166
+  ...
+# Subtest: seller counter is no better for player than the rejected offer
+ok 295 - seller counter is no better for player than the rejected offer
+  ---
+  duration_ms: 0.411875
+  ...
+# Subtest: invalid prices do not consume offers, patience or history
+ok 296 - invalid prices do not consume offers, patience or history
+  ---
+  duration_ms: 0.165416
+  ...
+# Subtest: patient guests are not subject to an invented universal time limit
+ok 297 - patient guests are not subject to an invented universal time limit
+  ---
+  duration_ms: 792.448833
+  ...
+# Subtest: hurried guest can time out and cannot be revived by a late high offer
+ok 298 - hurried guest can time out and cannot be revived by a late high offer
+  ---
+  duration_ms: 0.287834
+  ...
+# Subtest: timer advances equivalently in chunks and rejects invalid time
+ok 299 - timer advances equivalently in chunks and rejects invalid time
+  ---
+  duration_ms: 0.475334
+  ...
+# Subtest: Busy modifier accepts a mild correction but can leave after a severe value loss
+ok 300 - Busy modifier accepts a mild correction but can leave after a severe value loss
+  ---
+  duration_ms: 0.252125
+  ...
+# Subtest: frightened Demo modifier keeps its earlier ask after multiple positive cards
+ok 301 - frightened Demo modifier keeps its earlier ask after multiple positive cards
+  ---
+  duration_ms: 0.229833
+  ...
+# Subtest: fixie can refuse newly offered subjective information
+ok 302 - fixie can refuse newly offered subjective information
+  ---
+  duration_ms: 0.092792
+  ...
+# Subtest: aggregate error counts cannot invent a native NPC refusal without card history
+ok 303 - aggregate error counts cannot invent a native NPC refusal without card history
+  ---
+  duration_ms: 0.114416
+  ...
+# Subtest: a buyer accepts a cheap actual listing; terminal deal is not accepted twice
+ok 304 - a buyer accepts a cheap actual listing; terminal deal is not accepted twice
+  ---
+  duration_ms: 0.254208
+  ...
+# Subtest: buyer counters an excessive listing only once; player cannot haggle repeatedly
+ok 305 - buyer counters an excessive listing only once; player cannot haggle repeatedly
+  ---
+  duration_ms: 0.481875
+  ...
+# Subtest: buyer response uses actual fair value and explicit errors, not inflated tags
+ok 306 - buyer response uses actual fair value and explicit errors, not inflated tags
+  ---
+  duration_ms: 0.310291
+  ...
+# Subtest: renaming a listing during the active buyer request is refused
+ok 307 - renaming a listing during the active buyer request is refused
+  ---
+  duration_ms: 0.161541
+  ...
+# Subtest: transitions do not mutate input and contain no wallet or stock
+ok 308 - transitions do not mutate input and contain no wallet or stock
+  ---
+  duration_ms: 0.351083
+  ...
+# Subtest: unsupported or corrupted domain input fails before creating a negotiation
+ok 309 - unsupported or corrupted domain input fails before creating a negotiation
+  ---
+  duration_ms: 0.135209
+  ...
+# Subtest: Demo Active initial boundary is 70 percent, not a seed-dependent target
+ok 310 - Demo Active initial boundary is 70 percent, not a seed-dependent target
+  ---
+  duration_ms: 1.004541
+  ...
+# Subtest: Demo Fixie is 80 percent; the later guide approximation of 70 is not used
+ok 311 - Demo Fixie is 80 percent; the later guide approximation of 70 is not used
+  ---
+  duration_ms: 0.125541
+  ...
+# Subtest: Demo WishyWashy initial branch differs from Active
+ok 312 - Demo WishyWashy initial branch differs from Active
+  ---
+  duration_ms: 0.113167
+  ...
+# Subtest: Demo frustrated reported profile uses a truncated twenty-percent threshold
+ok 313 - Demo frustrated reported profile uses a truncated twenty-percent threshold
+  ---
+  duration_ms: 0.109125
+  ...
+# Subtest: Demo Active accepts a halfway concession after a sufficiently high preceding offer
+ok 314 - Demo Active accepts a halfway concession after a sufficiently high preceding offer
+  ---
+  duration_ms: 0.108208
+  ...
+# Subtest: Horong modifies the initial response without affecting public valuation
+ok 315 - Horong modifies the initial response without affecting public valuation
+  ---
+  duration_ms: 11.972333
+  ...
+# Subtest: updating private value does not clear a live public counter or reset patience
+ok 316 - updating private value does not clear a live public counter or reset patience
+  ---
+  duration_ms: 0.125083
+  ...
+# Subtest: Exact native IDs and native objects yield the same recommendation score
+ok 317 - Exact native IDs and native objects yield the same recommendation score
+  ---
+  duration_ms: 0.993958
+  ...
+# Subtest: Brand tiers use native category and source ID, with no visual-name heuristics
+ok 318 - Brand tiers use native category and source ID, with no visual-name heuristics
+  ---
+  duration_ms: 0.197667
+  ...
+# Subtest: Repaired inventory uses the new true condition before applying the recommendation penalty
+ok 319 - Repaired inventory uses the new true condition before applying the recommendation penalty
+  ---
+  duration_ms: 0.103041
+  ...
+# Subtest: Unrounded value matters at the cheap-item boundary; unresolved values stay unknown
+ok 320 - Unrounded value matters at the cheap-item boundary; unresolved values stay unknown
+  ---
+  duration_ms: 0.109417
+  ...
+# Subtest: Highest-category tier is used and equal tiers follow original last-card replacement
+ok 321 - Highest-category tier is used and equal tiers follow original last-card replacement
+  ---
+  duration_ms: 0.229292
+  ...
+# Subtest: All 618 possible raw ratings match direct official DLL percentages and tiers
+ok 322 - All 618 possible raw ratings match direct official DLL percentages and tiers
+  ---
+  duration_ms: 3.617792
+  ...
+# Subtest: Every satisfaction boundary and clamp matches the DLL
+ok 323 - Every satisfaction boundary and clamp matches the DLL
+  ---
+  duration_ms: 0.655208
+  ...
+# Subtest: Appraisal scoring matches 15 official DLL probes across all five tiers
+ok 324 - Appraisal scoring matches 15 official DLL probes across all five tiers
+  ---
+  duration_ms: 0.900875
+  ...
+# Subtest: A percentage screenshot provides a range, not an invented exact hidden rating
+ok 325 - A percentage screenshot provides a range, not an invented exact hidden rating
+  ---
+  duration_ms: 1.286459
+  ...
+# Subtest: Incomplete facts never earn an all-correct reward or cause an unproved penalty
+ok 326 - Incomplete facts never earn an all-correct reward or cause an unproved penalty
+  ---
+  duration_ms: 0.1235
+  ...
+# Subtest: Recommendation score and level changes match 48 official synthetic-item probes
+ok 327 - Recommendation score and level changes match 48 official synthetic-item probes
+  ---
+  duration_ms: 0.343
+  ...
+# Subtest: High-quality and negative traits combine; ordinary shelves never change recommendation rating
+ok 328 - High-quality and negative traits combine; ordinary shelves never change recommendation rating
+  ---
+  duration_ms: 0.081209
+  ...
+# Subtest: Session roundtrip is complete, independent, and readable by a fresh repository
+ok 329 - Session roundtrip is complete, independent, and readable by a fresh repository
+  ---
+  duration_ms: 2.935667
+  ...
+# Subtest: Cash tampering, malformed JSON, and changed metadata are diagnosed without overwriting
+ok 330 - Cash tampering, malformed JSON, and changed metadata are diagnosed without overwriting
+  ---
+  duration_ms: 0.542041
+  ...
+# Subtest: Old and future schemas are preserved instead of silently converted or discarded
+ok 331 - Old and future schemas are preserved instead of silently converted or discarded
+  ---
+  duration_ms: 0.113166
+  ...
+# Subtest: Failed autosave or day-branch write leaves the previous complete session and history unchanged
+ok 332 - Failed autosave or day-branch write leaves the previous complete session and history unchanged
+  ---
+  duration_ms: 1.30925
+  ...
+# Subtest: Day rewinds preserve old branches and autosaves resume the selected branch
+ok 333 - Day rewinds preserve old branches and autosaves resume the selected branch
+  ---
+  duration_ms: 1.268792
+  ...
+# Subtest: Day retention is bounded and keeps an earlier day when the player branches from it
+ok 334 - Day retention is bounded and keeps an earlier day when the player branches from it
+  ---
+  duration_ms: 0.764959
+  ...
+# Subtest: Non-JSON snapshots cannot silently lose values and never erase a valid save
+ok 335 - Non-JSON snapshots cannot silently lose values and never erase a valid save
+  ---
+  duration_ms: 0.476458
+  ...
+# Subtest: Read/remove failures are diagnostic, clear removes only the owned key, and days are validated
+ok 336 - Read/remove failures are diagnostic, clear removes only the owned key, and days are validated
+  ---
+  duration_ms: 0.252542
+  ...
+# Subtest: backpack blocks two direct prices, then gives control back to normal pricing
+ok 337 - backpack blocks two direct prices, then gives control back to normal pricing
+  ---
+  duration_ms: 0.771209
+  ...
+# Subtest: backpack requires the material evidence and retains its post-proof pipes
+ok 338 - backpack requires the material evidence and retains its post-proof pipes
+  ---
+  duration_ms: 0.415291
+  ...
+# Subtest: backpack preserves counterintuitive source flag rebindings rather than normalizing them
+ok 339 - backpack preserves counterintuitive source flag rebindings rather than normalizing them
+  ---
+  duration_ms: 0.186959
+  ...
+# Subtest: backpack context remembers repeated categories after a proof clear
+ok 340 - backpack context remembers repeated categories after a proof clear
+  ---
+  duration_ms: 0.092417
+  ...
+# Subtest: Mona Lisa requires Good Art; low grades share a three-attempt counter
+ok 341 - Mona Lisa requires Good Art; low grades share a three-attempt counter
+  ---
+  duration_ms: 0.125959
+  ...
+# Subtest: rabbit will not price hidden art evidence or an unaccepted assertion
+ok 342 - rabbit will not price hidden art evidence or an unaccepted assertion
+  ---
+  duration_ms: 0.091875
+  ...
+# Subtest: rabbit art counters are independent; the third Masterpiece removes its card hook
+ok 343 - rabbit art counters are independent; the third Masterpiece removes its card hook
+  ---
+  duration_ms: 0.133625
+  ...
+# Subtest: meaningful paper knowledge and price-hook removal use separate source state
+ok 344 - meaningful paper knowledge and price-hook removal use separate source state
+  ---
+  duration_ms: 0.109375
+  ...
+# Subtest: meaningful paper retains the actual asymmetric popularity counter
+ok 345 - meaningful paper retains the actual asymmetric popularity counter
+  ---
+  duration_ms: 0.101125
+  ...
+# Subtest: meaningful paper hide hook reads the old private slots and suppresses insertion exactly once
+ok 346 - meaningful paper hide hook reads the old private slots and suppresses insertion exactly once
+  ---
+  duration_ms: 0.16275
+  ...
+# Subtest: unwilling seller leaves on wrong cards but never converts unknown evidence to guilt
+ok 347 - unwilling seller leaves on wrong cards but never converts unknown evidence to guilt
+  ---
+  duration_ms: 0.081334
+  ...
+# Subtest: unwilling offer checks include the current offer and preserve strict 1.5 boundary
+ok 348 - unwilling offer checks include the current offer and preserve strict 1.5 boundary
+  ---
+  duration_ms: 0.2295
+  ...
+# Subtest: give-up hooks distinguish immediate source failure from a pending narrative branch
+ok 349 - give-up hooks distinguish immediate source failure from a pending narrative branch
+  ---
+  duration_ms: 0.202875
+  ...
+# Subtest: unknown, ordinary and resale visits do not acquire a story hook through their item identity
+ok 350 - unknown, ordinary and resale visits do not acquire a story hook through their item identity
+  ---
+  duration_ms: 0.199416
+  ...
+# Subtest: source binds all visits without giving unknown customers a made-up personality
+ok 351 - source binds all visits without giving unknown customers a made-up personality
+  ---
+  duration_ms: 0.6375
+  ...
+# Subtest: default NPC assumptions remain separate from true properties and opening offers
+ok 352 - default NPC assumptions remain separate from true properties and opening offers
+  ---
+  duration_ms: 0.376458
+  ...
+# Subtest: Choi exact boundaries and third over-high departure
+ok 353 - Choi exact boundaries and third over-high departure
+  ---
+  duration_ms: 0.199208
+  ...
+# Subtest: Yeongi uses current customer estimate with 65%, 90% and 200% boundaries
+ok 354 - Yeongi uses current customer estimate with 65%, 90% and 200% boundaries
+  ---
+  duration_ms: 0.2885
+  ...
+# Subtest: unimplemented source hooks and unrelated customers cannot silently claim exact handling
+ok 355 - unimplemented source hooks and unrelated customers cannot silently claim exact handling
+  ---
+  duration_ms: 0.08025
+  ...
+# Subtest: System: all 53 story visits with reject policy, forbidden video answers inaccessible
+ok 356 - System: all 53 story visits with reject policy, forbidden video answers inaccessible
+  ---
+  duration_ms: 94.612875
+  ...
+# Subtest: System: all 53 story visits with reasonable policy, forbidden video answers inaccessible
+ok 357 - System: all 53 story visits with reasonable policy, forbidden video answers inaccessible
+  ---
+  duration_ms: 196.837875
+  ...
+# Subtest: System: all 53 story visits with wrong policy, forbidden video answers inaccessible
+ok 358 - System: all 53 story visits with wrong policy, forbidden video answers inaccessible
+  ---
+  duration_ms: 263.226167
+  ...
+# Subtest: System: 500 randomized shelf moves, duplicate drops and invalid operations preserve ownership and cash
+ok 359 - System: 500 randomized shelf moves, duplicate drops and invalid operations preserve ownership and cash
+  ---
+  duration_ms: 281.594708
+  ...
+# Subtest: System: selecting and repricing inventory B cannot replace an active buyer target A
+ok 360 - System: selecting and repricing inventory B cannot replace an active buyer target A
+  ---
+  duration_ms: 2.894083
+  ...
+# Subtest: System: taking down buyer target A rejects the sale even when listed inventory B is selected
+ok 361 - System: taking down buyer target A rejects the sale even when listed inventory B is selected
+  ---
+  duration_ms: 1.419834
+  ...
+# Subtest: System: repair uses the inventory selection while an active buyer remains bound to another item
+ok 362 - System: repair uses the inventory selection while an active buyer remains bound to another item
+  ---
+  duration_ms: 1.275542
+  ...
+# Subtest: System: same-day loan repayment, reborrowing and next-day interest use actual ledger balances
+ok 363 - System: same-day loan repayment, reborrowing and next-day interest use actual ledger balances
+  ---
+  duration_ms: 2.303959
+  ...
+# Subtest: System: overnight repair blocks display and sale, then preserves corrected cards and original cost on resale
+ok 364 - System: overnight repair blocks display and sale, then preserves corrected cards and original cost on resale
+  ---
+  duration_ms: 2.135667
+  ...
+# Subtest: System: whole campaign save/restore continuation matches uninterrupted state including random negotiation
+ok 365 - System: whole campaign save/restore continuation matches uninterrupted state including random negotiation
+  ---
+  duration_ms: 275.325
+  ...
+# Subtest: System: partially appraised live negotiation, tool/book and loan state survive save and replay
+ok 366 - System: partially appraised live negotiation, tool/book and loan state survive save and replay
+  ---
+  duration_ms: 4.448959
+  ...
+# Subtest: System: original challenge starts day15 at3000; full 30-purchase scheduler is verified in native-progression
+ok 367 - System: original challenge starts day15 at3000; full 30-purchase scheduler is verified in native-progression
+  ---
+  duration_ms: 2.355417
+  ...
+# Subtest: System: challenge completes normally overnight repairs immediately, as the official Demo specifies
+ok 368 - System: challenge completes normally overnight repairs immediately, as the official Demo specifies
+  ---
+  duration_ms: 1.708417
+  ...
+# Subtest: System: unaffordable offers are harmless and three missed interest periods terminate progression
+ok 369 - System: unaffordable offers are harmless and three missed interest periods terminate progression
+  ---
+  duration_ms: 21.843
+  ...
+# Subtest: System: appraisal error probes are grounded in known facts rather than observed final player choices
+ok 370 - System: appraisal error probes are grounded in known facts rather than observed final player choices
+  ---
+  duration_ms: 0.459
+  ...
+1..370
+# tests 370
+# suites 0
+# pass 370
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3912.142042

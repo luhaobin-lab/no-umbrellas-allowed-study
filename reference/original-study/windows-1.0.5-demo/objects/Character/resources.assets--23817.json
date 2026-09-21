@@ -1,0 +1,96 @@
+{
+  "_source": {
+    "id": "resources.assets:23817",
+    "asset": "resources.assets",
+    "pathId": 23817,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "bokho",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23817.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "bokho",
+    "ID": "bokho",
+    "Sex": 1,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "211",
+        "randomCLOTH": 0,
+        "CLOTH": "211",
+        "randomHEAD": 0,
+        "HEAD": "211",
+        "randomEYE": 0,
+        "EYE": "211",
+        "randomEYEBROW": 0,
+        "EYEBROW": "211",
+        "randomNOSE": 0,
+        "NOSE": "211",
+        "randomMOUTH": 0,
+        "MOUTH": "211",
+        "randomHAIR": 0,
+        "HAIR": "211",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "211",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<30"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "211",
+        "randomCLOTH": 0,
+        "CLOTH": "211_2",
+        "randomHEAD": 0,
+        "HEAD": "211_2",
+        "randomEYE": 0,
+        "EYE": "211_2",
+        "randomEYEBROW": 0,
+        "EYEBROW": "211",
+        "randomNOSE": 0,
+        "NOSE": "211",
+        "randomMOUTH": 0,
+        "MOUTH": "211",
+        "randomHAIR": 0,
+        "HAIR": "211_2",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "211",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=30"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

@@ -1,0 +1,21 @@
+import {readFileSync} from 'node:fs';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Game} from './engine';
+import {visits,cardById,recordedById,initialStock} from './data';
+import {REF_BOOK_PAGES,REF_BOOK_TAG_BY_ID} from './reference-book-data';
+function finishChunk(g:Game){for(let n=0;n<100&&g.world.story;n++)g.continueStory();}
+// Video snapshots remain reference evidence; their reconstructed card addends are not a DLL oracle.
+// Native item/card and display integration is tested against independent DLL output below.
+test('Visible evidence remains separate from player judgement',()=>{const g=new Game(visits);g.start();g.inspect('material');assert.equal(g.estimate,118);assert.equal(g.state.book,'material');assert.equal(g.state.tags.length,3);});
+test('Quote settlement preserves money and transfers one item once',()=>{const g=new Game(visits);g.start();g.add(cardById.canvas);finishChunk(g);g.add(cardById['wrong-material']);finishChunk(g);g.updateHaggle();g.state.quote='45';assert.equal(g.offer(),true);assert.equal(g.state.cash,213);assert.equal(g.state.stock.length,1);assert.equal(g.state.stock[0].value,58);assert.equal(g.settle(45),false);assert.equal(g.state.cash,213);});
+test('Invalid quotes never spend money',()=>{for(const n of ['', '-1','2.5','99999999','Infinity']){const g=new Game(visits);g.start();g.state.quote=n;g.offer();assert.equal(g.state.cash,258);assert.equal(g.state.phase,'appraise');}});
+test('Private slots enforce capacity and reveal value on purchase',()=>{const g=new Game(visits);g.start();g.state.privateUnlocked=true;g.add(cardById.canvas);finishChunk(g);g.add(cardById['wrong-material']);finishChunk(g);const damage=g.state.tags.find(c=>c.group==='condition')!;g.add(damage,true);assert.equal(g.estimate,69);assert.equal(g.state.hidden.length,1);g.updateHaggle();g.state.quote='55';g.offer();assert.equal(g.state.stock[0].value,58);assert.equal(g.state.stock[0].cards.some(c=>c.id===damage.id),true);});
+test('Recorded old stock does not grant the current backpack before purchase',()=>{assert.equal(initialStock().some(s=>s.title==='Backpack of Soldier'),false);assert.equal(initialStock().find(s=>s.id==='strong-leg')?.slot,1);});
+test('Book clicks only navigate to evidenced pages and known tag records',()=>{const ids=new Set(REF_BOOK_PAGES.map(p=>p.id));for(const page of REF_BOOK_PAGES)for(const h of page.hotspots){if(h.kind==='tag')assert.ok(h.tagId&&REF_BOOK_TAG_BY_ID[h.tagId],`${page.id}/${h.id}`);if(h.kind==='jump'||h.kind==='info')assert.ok(h.target&&ids.has(h.target),`${page.id}/${h.id}`);}});
+
+test('Proving the material after story refusals clears the ordinary negotiation context',()=>{const g=new Game(visits);g.start();for(let i=0;i<2;i++){g.state.quote='59';assert.equal(g.offer(),false);finishChunk(g);}assert.equal(g.state.phase,'offer');g.add(cardById['wrong-material']);finishChunk(g);assert.equal(g.state.contextOffers.player,0);assert.equal(g.state.negotiation!.offers,0);g.state.quote=String(Math.floor(g.estimate*.5));g.offer();assert.equal(g.active,true);assert.notEqual(g.state.counter,null);});
+
+test('Clearing a live negotiation drops both offer histories without resetting money or evidence',()=>{const g=new Game(visits);g.start();g.add(cardById['wrong-material']);finishChunk(g);g.state.quote=String(Math.floor(g.estimate*.5));g.offer();assert.notEqual(g.state.counter,null);assert.ok(g.state.negotiation!.customerOffers>0);const cash=g.state.cash,value=g.estimate,seed=g.state.negotiation!.rngState,counter=g.state.counter;g.clearConversation();assert.equal(g.state.negotiation!.customerOffers,0);assert.equal(g.state.negotiation!.offers,0);assert.equal(g.state.counter,counter);assert.equal(g.state.cash,cash);assert.equal(g.estimate,value);assert.equal(g.state.negotiation!.rngState,seed);});
+
+test('Engine display rounds only after the original double estimate; intrinsic value retains precision',()=>{const rows=readFileSync(new URL('../reference/original-study/items/windows-dll-probe.jsonl',import.meta.url),'utf8').trim().split('\n').map(line=>JSON.parse(line));for(const row of rows.filter(r=>r.kind==='item'&&!r.hasTier2JewelryInfo).slice(0,20)){const g=new Game(visits),cards=g.cardsFromNative(row.rawCardIds);assert.equal(g.value(cards,0),Math.floor(row.serializedBaseValue));}});

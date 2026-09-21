@@ -1,0 +1,96 @@
+{
+  "_source": {
+    "id": "resources.assets:23850",
+    "asset": "resources.assets",
+    "pathId": 23850,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "profchoi",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23850.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "profchoi",
+    "ID": "profchoi",
+    "Sex": 1,
+    "Age": 1,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "204",
+        "randomCLOTH": 0,
+        "CLOTH": "204",
+        "randomHEAD": 0,
+        "HEAD": "204",
+        "randomEYE": 0,
+        "EYE": "None",
+        "randomEYEBROW": 0,
+        "EYEBROW": "204",
+        "randomNOSE": 0,
+        "NOSE": "204",
+        "randomMOUTH": 0,
+        "MOUTH": "204",
+        "randomHAIR": 0,
+        "HAIR": "204",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<16"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "204",
+        "randomCLOTH": 0,
+        "CLOTH": "204_2",
+        "randomHEAD": 0,
+        "HEAD": "204",
+        "randomEYE": 0,
+        "EYE": "None",
+        "randomEYEBROW": 0,
+        "EYEBROW": "204",
+        "randomNOSE": 0,
+        "NOSE": "204",
+        "randomMOUTH": 0,
+        "MOUTH": "204",
+        "randomHAIR": 0,
+        "HAIR": "204",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=16"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

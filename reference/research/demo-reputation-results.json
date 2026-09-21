@@ -1,0 +1,4619 @@
+{
+  "source": "https://hoochoo-game-studios.itch.io/no-umbrellas-allowed",
+  "build": "1.0.5 Demo Windows",
+  "verifiedAt": "2026-09-21",
+  "method": "Direct calls into the official published DLL from temporary handwritten .NET probe",
+  "cases": [
+    {
+      "kind": "appraised",
+      "raw": -15,
+      "percent": -5,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -14,
+      "percent": -4,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -13,
+      "percent": -4,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -12,
+      "percent": -4,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -11,
+      "percent": -3,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -10,
+      "percent": -3,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -9,
+      "percent": -3,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -8,
+      "percent": -2,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -7,
+      "percent": -2,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -6,
+      "percent": -2,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -5,
+      "percent": -1,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -4,
+      "percent": -1,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -3,
+      "percent": -1,
+      "tier": 1
+    },
+    {
+      "kind": "appraised",
+      "raw": -2,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": -1,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 0,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 1,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 2,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 3,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 4,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 5,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 6,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 7,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 8,
+      "percent": 0,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 9,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 10,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 11,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 12,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 13,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 14,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 15,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 16,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 17,
+      "percent": 1,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 18,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 19,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 20,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 21,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 22,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 23,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 24,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 25,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 26,
+      "percent": 2,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 27,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 28,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 29,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 30,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 31,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 32,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 33,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 34,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 35,
+      "percent": 3,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 36,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 37,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 38,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 39,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 40,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 41,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 42,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 43,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 44,
+      "percent": 4,
+      "tier": 2
+    },
+    {
+      "kind": "appraised",
+      "raw": 45,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 46,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 47,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 48,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 49,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 50,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 51,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 52,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 53,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 54,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 55,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 56,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 57,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 58,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 59,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 60,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 61,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 62,
+      "percent": 5,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 63,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 64,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 65,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 66,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 67,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 68,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 69,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 70,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 71,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 72,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 73,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 74,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 75,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 76,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 77,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 78,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 79,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 80,
+      "percent": 6,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 81,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 82,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 83,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 84,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 85,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 86,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 87,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 88,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 89,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 90,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 91,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 92,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 93,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 94,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 95,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 96,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 97,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 98,
+      "percent": 7,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 99,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 100,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 101,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 102,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 103,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 104,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 105,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 106,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 107,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 108,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 109,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 110,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 111,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 112,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 113,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 114,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 115,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 116,
+      "percent": 8,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 117,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 118,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 119,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 120,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 121,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 122,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 123,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 124,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 125,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 126,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 127,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 128,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 129,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 130,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 131,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 132,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 133,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 134,
+      "percent": 9,
+      "tier": 3
+    },
+    {
+      "kind": "appraised",
+      "raw": 135,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 136,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 137,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 138,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 139,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 140,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 141,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 142,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 143,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 144,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 145,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 146,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 147,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 148,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 149,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 150,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 151,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 152,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 153,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 154,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 155,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 156,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 157,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 158,
+      "percent": 10,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 159,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 160,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 161,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 162,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 163,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 164,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 165,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 166,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 167,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 168,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 169,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 170,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 171,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 172,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 173,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 174,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 175,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 176,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 177,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 178,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 179,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 180,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 181,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 182,
+      "percent": 11,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 183,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 184,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 185,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 186,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 187,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 188,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 189,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 190,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 191,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 192,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 193,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 194,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 195,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 196,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 197,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 198,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 199,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 200,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 201,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 202,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 203,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 204,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 205,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 206,
+      "percent": 12,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 207,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 208,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 209,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 210,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 211,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 212,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 213,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 214,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 215,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 216,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 217,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 218,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 219,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 220,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 221,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 222,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 223,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 224,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 225,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 226,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 227,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 228,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 229,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 230,
+      "percent": 13,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 231,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 232,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 233,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 234,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 235,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 236,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 237,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 238,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 239,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 240,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 241,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 242,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 243,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 244,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 245,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 246,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 247,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 248,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 249,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 250,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 251,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 252,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 253,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 254,
+      "percent": 14,
+      "tier": 4
+    },
+    {
+      "kind": "appraised",
+      "raw": 255,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 256,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 257,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 258,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 259,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 260,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 261,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 262,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 263,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 264,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 265,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 266,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 267,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 268,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 269,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 270,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 271,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 272,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 273,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 274,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 275,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 276,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 277,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 278,
+      "percent": 15,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 279,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 280,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 281,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 282,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 283,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 284,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 285,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 286,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 287,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 288,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 289,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 290,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 291,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 292,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 293,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 294,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 295,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 296,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 297,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 298,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 299,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 300,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 301,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 302,
+      "percent": 16,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 303,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 304,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 305,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 306,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 307,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 308,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 309,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 310,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 311,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 312,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 313,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 314,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 315,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 316,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 317,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 318,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 319,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 320,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 321,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 322,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 323,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 324,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 325,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 326,
+      "percent": 17,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 327,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 328,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 329,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 330,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 331,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 332,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 333,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 334,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 335,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 336,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 337,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 338,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 339,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 340,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 341,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 342,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 343,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 344,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 345,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 346,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 347,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 348,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 349,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 350,
+      "percent": 18,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 351,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 352,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 353,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 354,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 355,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 356,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 357,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 358,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 359,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 360,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 361,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 362,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 363,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 364,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 365,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 366,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 367,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 368,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 369,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 370,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 371,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 372,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 373,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 374,
+      "percent": 19,
+      "tier": 5
+    },
+    {
+      "kind": "appraised",
+      "raw": 375,
+      "percent": 20,
+      "tier": 5
+    },
+    {
+      "kind": "trusted",
+      "raw": -100,
+      "percent": -15,
+      "tier": 5,
+      "successRaw": -100,
+      "failRaw": -98
+    },
+    {
+      "kind": "trusted",
+      "raw": -99,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -100,
+      "failRaw": -97
+    },
+    {
+      "kind": "trusted",
+      "raw": -98,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -100,
+      "failRaw": -96
+    },
+    {
+      "kind": "trusted",
+      "raw": -97,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -99,
+      "failRaw": -95
+    },
+    {
+      "kind": "trusted",
+      "raw": -96,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -98,
+      "failRaw": -94
+    },
+    {
+      "kind": "trusted",
+      "raw": -95,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -97,
+      "failRaw": -93
+    },
+    {
+      "kind": "trusted",
+      "raw": -94,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -96,
+      "failRaw": -92
+    },
+    {
+      "kind": "trusted",
+      "raw": -93,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -95,
+      "failRaw": -91
+    },
+    {
+      "kind": "trusted",
+      "raw": -92,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -94,
+      "failRaw": -90
+    },
+    {
+      "kind": "trusted",
+      "raw": -91,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -93,
+      "failRaw": -89
+    },
+    {
+      "kind": "trusted",
+      "raw": -90,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -92,
+      "failRaw": -88
+    },
+    {
+      "kind": "trusted",
+      "raw": -89,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -91,
+      "failRaw": -87
+    },
+    {
+      "kind": "trusted",
+      "raw": -88,
+      "percent": -14,
+      "tier": 5,
+      "successRaw": -90,
+      "failRaw": -86
+    },
+    {
+      "kind": "trusted",
+      "raw": -87,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -89,
+      "failRaw": -85
+    },
+    {
+      "kind": "trusted",
+      "raw": -86,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -88,
+      "failRaw": -84
+    },
+    {
+      "kind": "trusted",
+      "raw": -85,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -87,
+      "failRaw": -83
+    },
+    {
+      "kind": "trusted",
+      "raw": -84,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -86,
+      "failRaw": -82
+    },
+    {
+      "kind": "trusted",
+      "raw": -83,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -85,
+      "failRaw": -81
+    },
+    {
+      "kind": "trusted",
+      "raw": -82,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -84,
+      "failRaw": -80
+    },
+    {
+      "kind": "trusted",
+      "raw": -81,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -83,
+      "failRaw": -79
+    },
+    {
+      "kind": "trusted",
+      "raw": -80,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -82,
+      "failRaw": -78
+    },
+    {
+      "kind": "trusted",
+      "raw": -79,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -81,
+      "failRaw": -77
+    },
+    {
+      "kind": "trusted",
+      "raw": -78,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -80,
+      "failRaw": -76
+    },
+    {
+      "kind": "trusted",
+      "raw": -77,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -79,
+      "failRaw": -75
+    },
+    {
+      "kind": "trusted",
+      "raw": -76,
+      "percent": -13,
+      "tier": 5,
+      "successRaw": -78,
+      "failRaw": -74
+    },
+    {
+      "kind": "trusted",
+      "raw": -75,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -77,
+      "failRaw": -73
+    },
+    {
+      "kind": "trusted",
+      "raw": -74,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -76,
+      "failRaw": -72
+    },
+    {
+      "kind": "trusted",
+      "raw": -73,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -75,
+      "failRaw": -71
+    },
+    {
+      "kind": "trusted",
+      "raw": -72,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -74,
+      "failRaw": -70
+    },
+    {
+      "kind": "trusted",
+      "raw": -71,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -73,
+      "failRaw": -69
+    },
+    {
+      "kind": "trusted",
+      "raw": -70,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -72,
+      "failRaw": -68
+    },
+    {
+      "kind": "trusted",
+      "raw": -69,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -71,
+      "failRaw": -67
+    },
+    {
+      "kind": "trusted",
+      "raw": -68,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -70,
+      "failRaw": -66
+    },
+    {
+      "kind": "trusted",
+      "raw": -67,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -69,
+      "failRaw": -65
+    },
+    {
+      "kind": "trusted",
+      "raw": -66,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -68,
+      "failRaw": -64
+    },
+    {
+      "kind": "trusted",
+      "raw": -65,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -67,
+      "failRaw": -63
+    },
+    {
+      "kind": "trusted",
+      "raw": -64,
+      "percent": -12,
+      "tier": 5,
+      "successRaw": -66,
+      "failRaw": -62
+    },
+    {
+      "kind": "trusted",
+      "raw": -63,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -65,
+      "failRaw": -61
+    },
+    {
+      "kind": "trusted",
+      "raw": -62,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -64,
+      "failRaw": -60
+    },
+    {
+      "kind": "trusted",
+      "raw": -61,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -63,
+      "failRaw": -59
+    },
+    {
+      "kind": "trusted",
+      "raw": -60,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -62,
+      "failRaw": -58
+    },
+    {
+      "kind": "trusted",
+      "raw": -59,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -61,
+      "failRaw": -57
+    },
+    {
+      "kind": "trusted",
+      "raw": -58,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -60,
+      "failRaw": -56
+    },
+    {
+      "kind": "trusted",
+      "raw": -57,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -59,
+      "failRaw": -55
+    },
+    {
+      "kind": "trusted",
+      "raw": -56,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -58,
+      "failRaw": -54
+    },
+    {
+      "kind": "trusted",
+      "raw": -55,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -57,
+      "failRaw": -53
+    },
+    {
+      "kind": "trusted",
+      "raw": -54,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -56,
+      "failRaw": -52
+    },
+    {
+      "kind": "trusted",
+      "raw": -53,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -55,
+      "failRaw": -51
+    },
+    {
+      "kind": "trusted",
+      "raw": -52,
+      "percent": -11,
+      "tier": 5,
+      "successRaw": -54,
+      "failRaw": -50
+    },
+    {
+      "kind": "trusted",
+      "raw": -51,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -53,
+      "failRaw": -49
+    },
+    {
+      "kind": "trusted",
+      "raw": -50,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -52,
+      "failRaw": -48
+    },
+    {
+      "kind": "trusted",
+      "raw": -49,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -51,
+      "failRaw": -47
+    },
+    {
+      "kind": "trusted",
+      "raw": -48,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -50,
+      "failRaw": -46
+    },
+    {
+      "kind": "trusted",
+      "raw": -47,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -49,
+      "failRaw": -45
+    },
+    {
+      "kind": "trusted",
+      "raw": -46,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -48,
+      "failRaw": -44
+    },
+    {
+      "kind": "trusted",
+      "raw": -45,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -47,
+      "failRaw": -43
+    },
+    {
+      "kind": "trusted",
+      "raw": -44,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -46,
+      "failRaw": -42
+    },
+    {
+      "kind": "trusted",
+      "raw": -43,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -45,
+      "failRaw": -41
+    },
+    {
+      "kind": "trusted",
+      "raw": -42,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -44,
+      "failRaw": -40
+    },
+    {
+      "kind": "trusted",
+      "raw": -41,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -43,
+      "failRaw": -39
+    },
+    {
+      "kind": "trusted",
+      "raw": -40,
+      "percent": -10,
+      "tier": 5,
+      "successRaw": -42,
+      "failRaw": -38
+    },
+    {
+      "kind": "trusted",
+      "raw": -39,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -40,
+      "failRaw": -38
+    },
+    {
+      "kind": "trusted",
+      "raw": -38,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -39,
+      "failRaw": -37
+    },
+    {
+      "kind": "trusted",
+      "raw": -37,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -38,
+      "failRaw": -36
+    },
+    {
+      "kind": "trusted",
+      "raw": -36,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -37,
+      "failRaw": -35
+    },
+    {
+      "kind": "trusted",
+      "raw": -35,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -36,
+      "failRaw": -34
+    },
+    {
+      "kind": "trusted",
+      "raw": -34,
+      "percent": -9,
+      "tier": 4,
+      "successRaw": -35,
+      "failRaw": -33
+    },
+    {
+      "kind": "trusted",
+      "raw": -33,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -34,
+      "failRaw": -32
+    },
+    {
+      "kind": "trusted",
+      "raw": -32,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -33,
+      "failRaw": -31
+    },
+    {
+      "kind": "trusted",
+      "raw": -31,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -32,
+      "failRaw": -30
+    },
+    {
+      "kind": "trusted",
+      "raw": -30,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -31,
+      "failRaw": -29
+    },
+    {
+      "kind": "trusted",
+      "raw": -29,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -30,
+      "failRaw": -28
+    },
+    {
+      "kind": "trusted",
+      "raw": -28,
+      "percent": -8,
+      "tier": 4,
+      "successRaw": -29,
+      "failRaw": -27
+    },
+    {
+      "kind": "trusted",
+      "raw": -27,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -28,
+      "failRaw": -26
+    },
+    {
+      "kind": "trusted",
+      "raw": -26,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -27,
+      "failRaw": -25
+    },
+    {
+      "kind": "trusted",
+      "raw": -25,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -26,
+      "failRaw": -24
+    },
+    {
+      "kind": "trusted",
+      "raw": -24,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -25,
+      "failRaw": -23
+    },
+    {
+      "kind": "trusted",
+      "raw": -23,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -24,
+      "failRaw": -22
+    },
+    {
+      "kind": "trusted",
+      "raw": -22,
+      "percent": -7,
+      "tier": 4,
+      "successRaw": -23,
+      "failRaw": -21
+    },
+    {
+      "kind": "trusted",
+      "raw": -21,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -22,
+      "failRaw": -20
+    },
+    {
+      "kind": "trusted",
+      "raw": -20,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -21,
+      "failRaw": -19
+    },
+    {
+      "kind": "trusted",
+      "raw": -19,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -20,
+      "failRaw": -18
+    },
+    {
+      "kind": "trusted",
+      "raw": -18,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -19,
+      "failRaw": -17
+    },
+    {
+      "kind": "trusted",
+      "raw": -17,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -18,
+      "failRaw": -16
+    },
+    {
+      "kind": "trusted",
+      "raw": -16,
+      "percent": -6,
+      "tier": 4,
+      "successRaw": -17,
+      "failRaw": -15
+    },
+    {
+      "kind": "trusted",
+      "raw": -15,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -16,
+      "failRaw": -14
+    },
+    {
+      "kind": "trusted",
+      "raw": -14,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -15,
+      "failRaw": -13
+    },
+    {
+      "kind": "trusted",
+      "raw": -13,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -14,
+      "failRaw": -12
+    },
+    {
+      "kind": "trusted",
+      "raw": -12,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -13,
+      "failRaw": -11
+    },
+    {
+      "kind": "trusted",
+      "raw": -11,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -12,
+      "failRaw": -10
+    },
+    {
+      "kind": "trusted",
+      "raw": -10,
+      "percent": -5,
+      "tier": 4,
+      "successRaw": -11,
+      "failRaw": -9
+    },
+    {
+      "kind": "trusted",
+      "raw": -9,
+      "percent": -4,
+      "tier": 3,
+      "successRaw": -10,
+      "failRaw": -8
+    },
+    {
+      "kind": "trusted",
+      "raw": -8,
+      "percent": -4,
+      "tier": 3,
+      "successRaw": -9,
+      "failRaw": -7
+    },
+    {
+      "kind": "trusted",
+      "raw": -7,
+      "percent": -3,
+      "tier": 3,
+      "successRaw": -8,
+      "failRaw": -6
+    },
+    {
+      "kind": "trusted",
+      "raw": -6,
+      "percent": -3,
+      "tier": 3,
+      "successRaw": -7,
+      "failRaw": -5
+    },
+    {
+      "kind": "trusted",
+      "raw": -5,
+      "percent": -2,
+      "tier": 3,
+      "successRaw": -6,
+      "failRaw": -4
+    },
+    {
+      "kind": "trusted",
+      "raw": -4,
+      "percent": -2,
+      "tier": 3,
+      "successRaw": -5,
+      "failRaw": -3
+    },
+    {
+      "kind": "trusted",
+      "raw": -3,
+      "percent": -1,
+      "tier": 3,
+      "successRaw": -4,
+      "failRaw": -2
+    },
+    {
+      "kind": "trusted",
+      "raw": -2,
+      "percent": -1,
+      "tier": 3,
+      "successRaw": -3,
+      "failRaw": -1
+    },
+    {
+      "kind": "trusted",
+      "raw": -1,
+      "percent": 0,
+      "tier": 3,
+      "successRaw": -2,
+      "failRaw": 0
+    },
+    {
+      "kind": "trusted",
+      "raw": 0,
+      "percent": 0,
+      "tier": 3,
+      "successRaw": -1,
+      "failRaw": 1
+    },
+    {
+      "kind": "trusted",
+      "raw": 1,
+      "percent": 0,
+      "tier": 3,
+      "successRaw": 0,
+      "failRaw": 2
+    },
+    {
+      "kind": "trusted",
+      "raw": 2,
+      "percent": 1,
+      "tier": 3,
+      "successRaw": 1,
+      "failRaw": 3
+    },
+    {
+      "kind": "trusted",
+      "raw": 3,
+      "percent": 1,
+      "tier": 3,
+      "successRaw": 2,
+      "failRaw": 4
+    },
+    {
+      "kind": "trusted",
+      "raw": 4,
+      "percent": 2,
+      "tier": 3,
+      "successRaw": 3,
+      "failRaw": 5
+    },
+    {
+      "kind": "trusted",
+      "raw": 5,
+      "percent": 2,
+      "tier": 3,
+      "successRaw": 4,
+      "failRaw": 6
+    },
+    {
+      "kind": "trusted",
+      "raw": 6,
+      "percent": 3,
+      "tier": 3,
+      "successRaw": 5,
+      "failRaw": 7
+    },
+    {
+      "kind": "trusted",
+      "raw": 7,
+      "percent": 3,
+      "tier": 3,
+      "successRaw": 6,
+      "failRaw": 8
+    },
+    {
+      "kind": "trusted",
+      "raw": 8,
+      "percent": 4,
+      "tier": 3,
+      "successRaw": 7,
+      "failRaw": 9
+    },
+    {
+      "kind": "trusted",
+      "raw": 9,
+      "percent": 4,
+      "tier": 3,
+      "successRaw": 8,
+      "failRaw": 10
+    },
+    {
+      "kind": "trusted",
+      "raw": 10,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 9,
+      "failRaw": 11
+    },
+    {
+      "kind": "trusted",
+      "raw": 11,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 10,
+      "failRaw": 12
+    },
+    {
+      "kind": "trusted",
+      "raw": 12,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 11,
+      "failRaw": 13
+    },
+    {
+      "kind": "trusted",
+      "raw": 13,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 12,
+      "failRaw": 14
+    },
+    {
+      "kind": "trusted",
+      "raw": 14,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 13,
+      "failRaw": 15
+    },
+    {
+      "kind": "trusted",
+      "raw": 15,
+      "percent": 5,
+      "tier": 3,
+      "successRaw": 14,
+      "failRaw": 16
+    },
+    {
+      "kind": "trusted",
+      "raw": 16,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 15,
+      "failRaw": 17
+    },
+    {
+      "kind": "trusted",
+      "raw": 17,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 16,
+      "failRaw": 18
+    },
+    {
+      "kind": "trusted",
+      "raw": 18,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 17,
+      "failRaw": 19
+    },
+    {
+      "kind": "trusted",
+      "raw": 19,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 18,
+      "failRaw": 20
+    },
+    {
+      "kind": "trusted",
+      "raw": 20,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 19,
+      "failRaw": 21
+    },
+    {
+      "kind": "trusted",
+      "raw": 21,
+      "percent": 6,
+      "tier": 2,
+      "successRaw": 20,
+      "failRaw": 22
+    },
+    {
+      "kind": "trusted",
+      "raw": 22,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 21,
+      "failRaw": 23
+    },
+    {
+      "kind": "trusted",
+      "raw": 23,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 22,
+      "failRaw": 24
+    },
+    {
+      "kind": "trusted",
+      "raw": 24,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 23,
+      "failRaw": 25
+    },
+    {
+      "kind": "trusted",
+      "raw": 25,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 24,
+      "failRaw": 26
+    },
+    {
+      "kind": "trusted",
+      "raw": 26,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 25,
+      "failRaw": 27
+    },
+    {
+      "kind": "trusted",
+      "raw": 27,
+      "percent": 7,
+      "tier": 2,
+      "successRaw": 26,
+      "failRaw": 28
+    },
+    {
+      "kind": "trusted",
+      "raw": 28,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 27,
+      "failRaw": 29
+    },
+    {
+      "kind": "trusted",
+      "raw": 29,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 28,
+      "failRaw": 30
+    },
+    {
+      "kind": "trusted",
+      "raw": 30,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 29,
+      "failRaw": 31
+    },
+    {
+      "kind": "trusted",
+      "raw": 31,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 30,
+      "failRaw": 32
+    },
+    {
+      "kind": "trusted",
+      "raw": 32,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 31,
+      "failRaw": 33
+    },
+    {
+      "kind": "trusted",
+      "raw": 33,
+      "percent": 8,
+      "tier": 2,
+      "successRaw": 32,
+      "failRaw": 34
+    },
+    {
+      "kind": "trusted",
+      "raw": 34,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 33,
+      "failRaw": 35
+    },
+    {
+      "kind": "trusted",
+      "raw": 35,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 34,
+      "failRaw": 36
+    },
+    {
+      "kind": "trusted",
+      "raw": 36,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 35,
+      "failRaw": 37
+    },
+    {
+      "kind": "trusted",
+      "raw": 37,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 36,
+      "failRaw": 38
+    },
+    {
+      "kind": "trusted",
+      "raw": 38,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 37,
+      "failRaw": 39
+    },
+    {
+      "kind": "trusted",
+      "raw": 39,
+      "percent": 9,
+      "tier": 2,
+      "successRaw": 38,
+      "failRaw": 40
+    },
+    {
+      "kind": "trusted",
+      "raw": 40,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 39,
+      "failRaw": 41
+    },
+    {
+      "kind": "trusted",
+      "raw": 41,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 40,
+      "failRaw": 42
+    },
+    {
+      "kind": "trusted",
+      "raw": 42,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 41,
+      "failRaw": 43
+    },
+    {
+      "kind": "trusted",
+      "raw": 43,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 42,
+      "failRaw": 44
+    },
+    {
+      "kind": "trusted",
+      "raw": 44,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 43,
+      "failRaw": 45
+    },
+    {
+      "kind": "trusted",
+      "raw": 45,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 44,
+      "failRaw": 46
+    },
+    {
+      "kind": "trusted",
+      "raw": 46,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 45,
+      "failRaw": 47
+    },
+    {
+      "kind": "trusted",
+      "raw": 47,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 46,
+      "failRaw": 48
+    },
+    {
+      "kind": "trusted",
+      "raw": 48,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 47,
+      "failRaw": 49
+    },
+    {
+      "kind": "trusted",
+      "raw": 49,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 48,
+      "failRaw": 50
+    },
+    {
+      "kind": "trusted",
+      "raw": 50,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 49,
+      "failRaw": 51
+    },
+    {
+      "kind": "trusted",
+      "raw": 51,
+      "percent": 10,
+      "tier": 2,
+      "successRaw": 50,
+      "failRaw": 52
+    },
+    {
+      "kind": "trusted",
+      "raw": 52,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 51,
+      "failRaw": 53
+    },
+    {
+      "kind": "trusted",
+      "raw": 53,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 52,
+      "failRaw": 54
+    },
+    {
+      "kind": "trusted",
+      "raw": 54,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 53,
+      "failRaw": 55
+    },
+    {
+      "kind": "trusted",
+      "raw": 55,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 54,
+      "failRaw": 56
+    },
+    {
+      "kind": "trusted",
+      "raw": 56,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 55,
+      "failRaw": 57
+    },
+    {
+      "kind": "trusted",
+      "raw": 57,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 56,
+      "failRaw": 58
+    },
+    {
+      "kind": "trusted",
+      "raw": 58,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 57,
+      "failRaw": 59
+    },
+    {
+      "kind": "trusted",
+      "raw": 59,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 58,
+      "failRaw": 60
+    },
+    {
+      "kind": "trusted",
+      "raw": 60,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 59,
+      "failRaw": 61
+    },
+    {
+      "kind": "trusted",
+      "raw": 61,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 60,
+      "failRaw": 62
+    },
+    {
+      "kind": "trusted",
+      "raw": 62,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 61,
+      "failRaw": 63
+    },
+    {
+      "kind": "trusted",
+      "raw": 63,
+      "percent": 11,
+      "tier": 1,
+      "successRaw": 62,
+      "failRaw": 64
+    },
+    {
+      "kind": "trusted",
+      "raw": 64,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 63,
+      "failRaw": 65
+    },
+    {
+      "kind": "trusted",
+      "raw": 65,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 64,
+      "failRaw": 66
+    },
+    {
+      "kind": "trusted",
+      "raw": 66,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 65,
+      "failRaw": 67
+    },
+    {
+      "kind": "trusted",
+      "raw": 67,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 66,
+      "failRaw": 68
+    },
+    {
+      "kind": "trusted",
+      "raw": 68,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 67,
+      "failRaw": 69
+    },
+    {
+      "kind": "trusted",
+      "raw": 69,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 68,
+      "failRaw": 70
+    },
+    {
+      "kind": "trusted",
+      "raw": 70,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 69,
+      "failRaw": 71
+    },
+    {
+      "kind": "trusted",
+      "raw": 71,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 70,
+      "failRaw": 72
+    },
+    {
+      "kind": "trusted",
+      "raw": 72,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 71,
+      "failRaw": 73
+    },
+    {
+      "kind": "trusted",
+      "raw": 73,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 72,
+      "failRaw": 74
+    },
+    {
+      "kind": "trusted",
+      "raw": 74,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 73,
+      "failRaw": 75
+    },
+    {
+      "kind": "trusted",
+      "raw": 75,
+      "percent": 12,
+      "tier": 1,
+      "successRaw": 74,
+      "failRaw": 76
+    },
+    {
+      "kind": "trusted",
+      "raw": 76,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 75,
+      "failRaw": 77
+    },
+    {
+      "kind": "trusted",
+      "raw": 77,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 76,
+      "failRaw": 78
+    },
+    {
+      "kind": "trusted",
+      "raw": 78,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 77,
+      "failRaw": 79
+    },
+    {
+      "kind": "trusted",
+      "raw": 79,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 78,
+      "failRaw": 80
+    },
+    {
+      "kind": "trusted",
+      "raw": 80,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 79,
+      "failRaw": 81
+    },
+    {
+      "kind": "trusted",
+      "raw": 81,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 80,
+      "failRaw": 82
+    },
+    {
+      "kind": "trusted",
+      "raw": 82,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 81,
+      "failRaw": 83
+    },
+    {
+      "kind": "trusted",
+      "raw": 83,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 82,
+      "failRaw": 84
+    },
+    {
+      "kind": "trusted",
+      "raw": 84,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 83,
+      "failRaw": 85
+    },
+    {
+      "kind": "trusted",
+      "raw": 85,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 84,
+      "failRaw": 86
+    },
+    {
+      "kind": "trusted",
+      "raw": 86,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 85,
+      "failRaw": 87
+    },
+    {
+      "kind": "trusted",
+      "raw": 87,
+      "percent": 13,
+      "tier": 1,
+      "successRaw": 86,
+      "failRaw": 88
+    },
+    {
+      "kind": "trusted",
+      "raw": 88,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 87,
+      "failRaw": 89
+    },
+    {
+      "kind": "trusted",
+      "raw": 89,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 88,
+      "failRaw": 90
+    },
+    {
+      "kind": "trusted",
+      "raw": 90,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 89,
+      "failRaw": 91
+    },
+    {
+      "kind": "trusted",
+      "raw": 91,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 90,
+      "failRaw": 92
+    },
+    {
+      "kind": "trusted",
+      "raw": 92,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 91,
+      "failRaw": 93
+    },
+    {
+      "kind": "trusted",
+      "raw": 93,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 92,
+      "failRaw": 94
+    },
+    {
+      "kind": "trusted",
+      "raw": 94,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 93,
+      "failRaw": 95
+    },
+    {
+      "kind": "trusted",
+      "raw": 95,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 94,
+      "failRaw": 96
+    },
+    {
+      "kind": "trusted",
+      "raw": 96,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 95,
+      "failRaw": 97
+    },
+    {
+      "kind": "trusted",
+      "raw": 97,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 96,
+      "failRaw": 98
+    },
+    {
+      "kind": "trusted",
+      "raw": 98,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 97,
+      "failRaw": 99
+    },
+    {
+      "kind": "trusted",
+      "raw": 99,
+      "percent": 14,
+      "tier": 1,
+      "successRaw": 98,
+      "failRaw": 100
+    },
+    {
+      "kind": "trusted",
+      "raw": 100,
+      "percent": 15,
+      "tier": 1,
+      "successRaw": 99,
+      "failRaw": 100
+    },
+    {
+      "kind": "recommended",
+      "raw": 0,
+      "percent": 0,
+      "tier": 1
+    },
+    {
+      "kind": "recommended",
+      "raw": 1,
+      "percent": 1,
+      "tier": 1
+    },
+    {
+      "kind": "recommended",
+      "raw": 2,
+      "percent": 2,
+      "tier": 1
+    },
+    {
+      "kind": "recommended",
+      "raw": 3,
+      "percent": 3,
+      "tier": 1
+    },
+    {
+      "kind": "recommended",
+      "raw": 4,
+      "percent": 4,
+      "tier": 1
+    },
+    {
+      "kind": "recommended",
+      "raw": 5,
+      "percent": 5,
+      "tier": 2
+    },
+    {
+      "kind": "recommended",
+      "raw": 6,
+      "percent": 6,
+      "tier": 2
+    },
+    {
+      "kind": "recommended",
+      "raw": 7,
+      "percent": 7,
+      "tier": 2
+    },
+    {
+      "kind": "recommended",
+      "raw": 8,
+      "percent": 8,
+      "tier": 2
+    },
+    {
+      "kind": "recommended",
+      "raw": 9,
+      "percent": 9,
+      "tier": 2
+    },
+    {
+      "kind": "recommended",
+      "raw": 10,
+      "percent": 10,
+      "tier": 3
+    },
+    {
+      "kind": "recommended",
+      "raw": 11,
+      "percent": 11,
+      "tier": 3
+    },
+    {
+      "kind": "recommended",
+      "raw": 12,
+      "percent": 12,
+      "tier": 3
+    },
+    {
+      "kind": "recommended",
+      "raw": 13,
+      "percent": 13,
+      "tier": 3
+    },
+    {
+      "kind": "recommended",
+      "raw": 14,
+      "percent": 14,
+      "tier": 3
+    },
+    {
+      "kind": "recommended",
+      "raw": 15,
+      "percent": 15,
+      "tier": 4
+    },
+    {
+      "kind": "recommended",
+      "raw": 16,
+      "percent": 16,
+      "tier": 4
+    },
+    {
+      "kind": "recommended",
+      "raw": 17,
+      "percent": 17,
+      "tier": 4
+    },
+    {
+      "kind": "recommended",
+      "raw": 18,
+      "percent": 18,
+      "tier": 4
+    },
+    {
+      "kind": "recommended",
+      "raw": 19,
+      "percent": 19,
+      "tier": 4
+    },
+    {
+      "kind": "recommended",
+      "raw": 20,
+      "percent": 20,
+      "tier": 5
+    },
+    {
+      "kind": "recommended",
+      "raw": 21,
+      "percent": 21,
+      "tier": 5
+    },
+    {
+      "kind": "recommended",
+      "raw": 22,
+      "percent": 22,
+      "tier": 5
+    },
+    {
+      "kind": "recommended",
+      "raw": 23,
+      "percent": 23,
+      "tier": 5
+    },
+    {
+      "kind": "recommended",
+      "raw": 24,
+      "percent": 24,
+      "tier": 5
+    },
+    {
+      "kind": "recommended",
+      "raw": 25,
+      "percent": 25,
+      "tier": 5
+    },
+    {
+      "kind": "brands",
+      "AA": [
+        "async",
+        "oz",
+        "realbird",
+        "besch"
+      ],
+      "A": [
+        "queen",
+        "vertivo",
+        "sas",
+        "casualcat",
+        "ben"
+      ]
+    },
+    {
+      "kind": "colors",
+      "properties": [
+        "Gray",
+        "Green",
+        "Blue",
+        "Red",
+        "Yellow",
+        "Pink"
+      ]
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": -15,
+      "errors": 0,
+      "delta": 2
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": -15,
+      "errors": 1,
+      "delta": 0
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": -15,
+      "errors": 2,
+      "delta": -1
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 0,
+      "errors": 0,
+      "delta": 2
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 0,
+      "errors": 1,
+      "delta": 0
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 0,
+      "errors": 2,
+      "delta": -3
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 45,
+      "errors": 0,
+      "delta": 2
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 45,
+      "errors": 1,
+      "delta": -4
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 45,
+      "errors": 2,
+      "delta": -4
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 135,
+      "errors": 0,
+      "delta": 2
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 135,
+      "errors": 1,
+      "delta": -6
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 135,
+      "errors": 2,
+      "delta": -6
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 255,
+      "errors": 0,
+      "delta": 2
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 255,
+      "errors": 1,
+      "delta": -7
+    },
+    {
+      "kind": "appraisal-points",
+      "raw": 255,
+      "errors": 2,
+      "delta": -7
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 1
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 1
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 0,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 0
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 5
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 4
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 5
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 4
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 6
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 5
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 6
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 5,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 5
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 9
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 9
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 10
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 9
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 11
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 9
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 11
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 10,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 10
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 15
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 16
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 15,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 14
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 20
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 21
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 20,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 19
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 20,
+      "repaired": false,
+      "score": -1,
+      "after": 24
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 20,
+      "repaired": true,
+      "score": -3,
+      "after": 24
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 100,
+      "repaired": false,
+      "score": 0,
+      "after": 24
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 100,
+      "repaired": true,
+      "score": -2,
+      "after": 24
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 500,
+      "repaired": false,
+      "score": 1,
+      "after": 25
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 500,
+      "repaired": true,
+      "score": -1,
+      "after": 24
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 2000,
+      "repaired": false,
+      "score": 2,
+      "after": 25
+    },
+    {
+      "kind": "recommendation-points",
+      "raw": 25,
+      "price": 2000,
+      "repaired": true,
+      "score": 0,
+      "after": 24
+    }
+  ]
+}

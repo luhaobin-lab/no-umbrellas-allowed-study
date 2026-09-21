@@ -1,0 +1,214 @@
+[
+  {
+    "id": "device-01",
+    "timestamp": 3427.0,
+    "asset": "/assets/reporting/device-01.png",
+    "rect": [
+      1259,
+      811,
+      180,
+      189
+    ],
+    "source": "reference/reporting/frames/3427.png"
+  },
+  {
+    "id": "device-02",
+    "timestamp": 3467.0,
+    "asset": "/assets/reporting/device-02.png",
+    "rect": [
+      1259,
+      811,
+      180,
+      189
+    ],
+    "source": "reference/reporting/frames/3467.png"
+  },
+  {
+    "id": "device-00",
+    "timestamp": 3143,
+    "asset": "/assets/reporting/device-00.png",
+    "rect": [
+      1259,
+      811,
+      180,
+      189
+    ],
+    "sources": [
+      3427,
+      3143
+    ],
+    "note": "3427 clean device shell plus 3143 original 00/00 display [1270,841,157,58]."
+  },
+  {
+    "id": "device-labels",
+    "timestamp": 3140,
+    "asset": "/assets/reporting/device-labels.png",
+    "rect": [
+      1259,
+      811,
+      180,
+      189
+    ],
+    "sources": [
+      3427,
+      3140,
+      3141
+    ],
+    "text": "TODAY | THIS WEEK",
+    "note": "Clean 3427 shell; left TODAY copied from 3140, right THIS WEEK copied from 3141 to avoid each recorded cursor."
+  },
+  {
+    "id": "counter-labels",
+    "timestamp": 3140,
+    "asset": "/assets/reporting/counter-labels.png",
+    "rect": [
+      1267,
+      841,
+      166,
+      58
+    ],
+    "sources": [
+      3140,
+      3141
+    ],
+    "text": "TODAY | THIS WEEK"
+  },
+  {
+    "id": "device-collapsed-00",
+    "timestamp": 3424.8,
+    "asset": "/assets/reporting/device-collapsed-00.png",
+    "rect": [
+      1259,
+      911,
+      180,
+      89
+    ],
+    "sources": [
+      3424.8,
+      3427,
+      3143
+    ],
+    "note": "Recorded collapsed body; roof [1259,911,180,35] replaced with clean identical original roof copied down 100 px to remove cursor."
+  },
+  {
+    "id": "device-collapsed-original",
+    "timestamp": 3424.8,
+    "asset": "/assets/reporting/device-collapsed-original.png",
+    "rect": [
+      1259,
+      911,
+      180,
+      89
+    ],
+    "source": "reference/reporting/frames/3424.80.png"
+  },
+  {
+    "id": "button-hover",
+    "timestamp": 3425.5,
+    "asset": "/assets/reporting/button-hover.png",
+    "rect": [
+      1290,
+      922,
+      120,
+      55
+    ],
+    "source": "reference/reporting/frames/3425.50.png",
+    "renderRect": [
+      1290,
+      920,
+      120,
+      55
+    ],
+    "note": "Original hover pixels during +2 px vertical slide; place 2 px up when device is stationary."
+  },
+  {
+    "id": "city-progress-90",
+    "timestamp": 3153.0,
+    "asset": "/assets/reporting/city-progress-90.png",
+    "rect": [
+      213,
+      91,
+      472,
+      155
+    ],
+    "source": "reference/reporting/frames/3153.png"
+  },
+  {
+    "id": "reporting-tutorial-counters",
+    "timestamp": 3140.0,
+    "asset": "/assets/reporting/reporting-tutorial-counters.png",
+    "rect": [
+      707,
+      124,
+      509,
+      173
+    ],
+    "source": "reference/reporting/frames/3140.png",
+    "text": "On its left is a count of your reports of the day, while the other is a count of your reports of the week."
+  },
+  {
+    "id": "reporting-tutorial-secrecy",
+    "timestamp": 3148.0,
+    "asset": "/assets/reporting/reporting-tutorial-secrecy.png",
+    "rect": [
+      707,
+      124,
+      509,
+      173
+    ],
+    "source": "reference/reporting/frames/3148.png",
+    "text": "And please don't be afraid to press it in the face, since they cannot know if you press it or not."
+  },
+  {
+    "id": "reporting-tutorial-city",
+    "timestamp": 3153.0,
+    "asset": "/assets/reporting/reporting-tutorial-city.png",
+    "rect": [
+      707,
+      153,
+      509,
+      144
+    ],
+    "source": "reference/reporting/frames/3153.png",
+    "text": "Here will be the total number of criminal arrests of the week throughout the city."
+  },
+  {
+    "id": "street-quota-53",
+    "timestamp": 3478.0,
+    "asset": "/assets/reporting/street-quota-53.png",
+    "rect": [
+      1222,
+      134,
+      266,
+      310
+    ],
+    "source": "reference/reporting/frames/3478.png",
+    "text": "53 Avarice Criminals Left / D-5"
+  },
+  {
+    "id": "street-arrested-poster",
+    "timestamp": 3478.0,
+    "asset": "/assets/reporting/street-arrested-poster.png",
+    "rect": [
+      558,
+      134,
+      267,
+      338
+    ],
+    "source": "reference/reporting/frames/3478.png",
+    "text": "ARRESTED for avarice crime"
+  },
+  {
+    "id": "street-donation-message",
+    "timestamp": 3522.0,
+    "asset": "/assets/reporting/street-donation-message.png",
+    "rect": [
+      284,
+      366,
+      386,
+      92
+    ],
+    "source": "reference/broadcasts/frames/3522.png",
+    "text": "Donate for zero-Avarice society."
+  }
+]

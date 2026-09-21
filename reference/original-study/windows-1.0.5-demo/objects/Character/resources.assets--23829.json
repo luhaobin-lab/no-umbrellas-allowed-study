@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23829",
+    "asset": "resources.assets",
+    "pathId": 23829,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "gu",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23829.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "gu",
+    "ID": "gu",
+    "Sex": 1,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "031",
+        "randomCLOTH": 0,
+        "CLOTH": "032",
+        "randomHEAD": 0,
+        "HEAD": "003",
+        "randomEYE": 0,
+        "EYE": "103",
+        "randomEYEBROW": 0,
+        "EYEBROW": "132",
+        "randomNOSE": 0,
+        "NOSE": "134",
+        "randomMOUTH": 0,
+        "MOUTH": "002",
+        "randomHAIR": 0,
+        "HAIR": "039",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "133",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

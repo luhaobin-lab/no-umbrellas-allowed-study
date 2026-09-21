@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23847",
+    "asset": "resources.assets",
+    "pathId": 23847,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "preAvarice5",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23847.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "preAvarice5",
+    "ID": "preAvarice5",
+    "Sex": 1,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "001",
+        "randomCLOTH": 0,
+        "CLOTH": "001",
+        "randomHEAD": 0,
+        "HEAD": "005",
+        "randomEYE": 0,
+        "EYE": "005",
+        "randomEYEBROW": 0,
+        "EYEBROW": "005",
+        "randomNOSE": 0,
+        "NOSE": "005",
+        "randomMOUTH": 0,
+        "MOUTH": "005",
+        "randomHAIR": 0,
+        "HAIR": "005",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

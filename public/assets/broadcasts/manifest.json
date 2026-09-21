@@ -1,0 +1,98 @@
+[
+  {
+    "id": "night-day6-end",
+    "timestamp": 559,
+    "rect": [
+      24,
+      136,
+      732,
+      204
+    ],
+    "asset": "/assets/broadcasts/night-day6-end.png",
+    "note": "Unmodified source crop, no cursor inside."
+  },
+  {
+    "id": "night-end",
+    "timestamp": 1678,
+    "rect": [
+      24,
+      136,
+      732,
+      204
+    ],
+    "asset": "/assets/broadcasts/night-end.png",
+    "note": "Unmodified source crop, no cursor inside."
+  },
+  {
+    "id": "night-weather",
+    "timestamp": 1684,
+    "rect": [
+      24,
+      136,
+      732,
+      204
+    ],
+    "asset": "/assets/broadcasts/night-weather.png",
+    "note": "Unmodified source crop, no cursor inside."
+  },
+  {
+    "id": "morning-greeting",
+    "timestamp": 758,
+    "rect": [
+      24,
+      136,
+      732,
+      204
+    ],
+    "asset": "/assets/broadcasts/morning-greeting.png",
+    "note": "Unmodified source crop, no cursor inside."
+  },
+  {
+    "id": "morning-restraint",
+    "timestamp": 762,
+    "rect": [
+      24,
+      136,
+      732,
+      204
+    ],
+    "asset": "/assets/broadcasts/morning-restraint.png",
+    "note": "Unmodified source crop, no cursor inside."
+  },
+  {
+    "id": "story-weekly-quota",
+    "timestamp": 3100,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "asset": "/assets/broadcasts/story-weekly-quota.png",
+    "note": "Original-frame crop [0,0,48,48] covers recorded mouse at [988,866,48,48]. Text and continue indicator untouched; raw original also saved."
+  },
+  {
+    "id": "horong-pink",
+    "timestamp": 2521,
+    "rect": [
+      1448,
+      778,
+      106,
+      132
+    ],
+    "asset": "/assets/broadcasts/horong-pink.png",
+    "note": "Unmodified source crop; source reference/surfaces/daily/002521.png."
+  },
+  {
+    "id": "avac-crt",
+    "timestamp": 1678,
+    "rect": [
+      60,
+      141,
+      176,
+      137
+    ],
+    "asset": "/assets/broadcasts/avac-crt.png",
+    "note": "Unmodified original CRT and mounting pixels, no bubble."
+  }
+]

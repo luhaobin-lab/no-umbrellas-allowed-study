@@ -1,0 +1,96 @@
+{
+  "_source": {
+    "id": "resources.assets:23828",
+    "asset": "resources.assets",
+    "pathId": 23828,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "granmagwak",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23828.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "granmagwak",
+    "ID": "granmagwak",
+    "Sex": 0,
+    "Age": 2,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "202",
+        "randomCLOTH": 0,
+        "CLOTH": "202",
+        "randomHEAD": 0,
+        "HEAD": "202",
+        "randomEYE": 0,
+        "EYE": "202",
+        "randomEYEBROW": 0,
+        "EYEBROW": "202",
+        "randomNOSE": 0,
+        "NOSE": "202",
+        "randomMOUTH": 0,
+        "MOUTH": "202",
+        "randomHAIR": 0,
+        "HAIR": "202",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<21"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "202",
+        "randomCLOTH": 0,
+        "CLOTH": "202_2",
+        "randomHEAD": 0,
+        "HEAD": "202_2",
+        "randomEYE": 0,
+        "EYE": "202",
+        "randomEYEBROW": 0,
+        "EYEBROW": "202",
+        "randomNOSE": 0,
+        "NOSE": "202",
+        "randomMOUTH": 0,
+        "MOUTH": "202",
+        "randomHAIR": 0,
+        "HAIR": "202_2",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=21"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

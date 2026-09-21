@@ -1,0 +1,127 @@
+{
+  "_source": {
+    "id": "resources.assets:23840",
+    "asset": "resources.assets",
+    "pathId": 23840,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "nari",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23840.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "nari",
+    "ID": "nari",
+    "Sex": 0,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "209",
+        "randomCLOTH": 0,
+        "CLOTH": "209",
+        "randomHEAD": 0,
+        "HEAD": "209",
+        "randomEYE": 0,
+        "EYE": "209",
+        "randomEYEBROW": 0,
+        "EYEBROW": "209",
+        "randomNOSE": 0,
+        "NOSE": "209",
+        "randomMOUTH": 0,
+        "MOUTH": "209",
+        "randomHAIR": 0,
+        "HAIR": "209",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "209",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<37"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "209_2",
+        "randomCLOTH": 0,
+        "CLOTH": "209_2",
+        "randomHEAD": 0,
+        "HEAD": "209_2",
+        "randomEYE": 0,
+        "EYE": "None",
+        "randomEYEBROW": 0,
+        "EYEBROW": "None",
+        "randomNOSE": 0,
+        "NOSE": "None",
+        "randomMOUTH": 0,
+        "MOUTH": "None",
+        "randomHAIR": 0,
+        "HAIR": "209_2",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "209_2",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=37"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "209_3",
+        "randomCLOTH": 0,
+        "CLOTH": "209_3",
+        "randomHEAD": 0,
+        "HEAD": "209",
+        "randomEYE": 0,
+        "EYE": "209",
+        "randomEYEBROW": 0,
+        "EYEBROW": "209",
+        "randomNOSE": 0,
+        "NOSE": "209",
+        "randomMOUTH": 0,
+        "MOUTH": "209",
+        "randomHAIR": 0,
+        "HAIR": "209_3",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "209_3",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=37"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

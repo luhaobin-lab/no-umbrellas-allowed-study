@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23823",
+    "asset": "resources.assets",
+    "pathId": 23823,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "darcy",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23823.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "darcy",
+    "ID": "darcy",
+    "Sex": 1,
+    "Age": 2,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "203",
+        "randomCLOTH": 0,
+        "CLOTH": "203",
+        "randomHEAD": 0,
+        "HEAD": "203",
+        "randomEYE": 0,
+        "EYE": "203",
+        "randomEYEBROW": 0,
+        "EYEBROW": "203",
+        "randomNOSE": 0,
+        "NOSE": "203",
+        "randomMOUTH": 0,
+        "MOUTH": "203",
+        "randomHAIR": 0,
+        "HAIR": "203",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

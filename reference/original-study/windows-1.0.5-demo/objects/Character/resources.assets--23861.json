@@ -1,0 +1,96 @@
+{
+  "_source": {
+    "id": "resources.assets:23861",
+    "asset": "resources.assets",
+    "pathId": 23861,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "wonsu",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23861.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "wonsu",
+    "ID": "wonsu",
+    "Sex": 1,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "212",
+        "randomCLOTH": 0,
+        "CLOTH": "212",
+        "randomHEAD": 0,
+        "HEAD": "212",
+        "randomEYE": 0,
+        "EYE": "212",
+        "randomEYEBROW": 0,
+        "EYEBROW": "212",
+        "randomNOSE": 0,
+        "NOSE": "212",
+        "randomMOUTH": 0,
+        "MOUTH": "212",
+        "randomHAIR": 0,
+        "HAIR": "212",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<19"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "212_2",
+        "randomCLOTH": 0,
+        "CLOTH": "212_2",
+        "randomHEAD": 0,
+        "HEAD": "212",
+        "randomEYE": 0,
+        "EYE": "212",
+        "randomEYEBROW": 0,
+        "EYEBROW": "212",
+        "randomNOSE": 0,
+        "NOSE": "212",
+        "randomMOUTH": 0,
+        "MOUTH": "212",
+        "randomHAIR": 0,
+        "HAIR": "212_2",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "None",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=19"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "label": "RepairShop",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 687,
+    "path": "StoreEntrances/RepairShop/Teleporter Entrance RepairShop",
+    "worldPosition": {
+      "x": 17.719999313354492,
+      "y": -2.0999999046325684,
+      "z": 0.0
+    },
+    "colliderId": 1618,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2504,
+    "destinationColliderId": 1610,
+    "destinationGameObject": 701,
+    "destinationPath": "Stores/RepairShop/Teleporter RepairShop",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 564
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning && day>=9",
+        "useComplexPredicate": 1,
+        "complexPredicate": {
+          "trueIfAllOf": [
+            "morning",
+            "day>=9"
+          ],
+          "trueIfAnyOf": [],
+          "falseIfAllOf": [],
+          "falseIfAnyOf": []
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 687
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 132
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1802
+          }
+        ],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 177
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "HiddenV auction",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 690,
+    "path": "StoreEntrances/HiddenV/Teleporter Entrance HiddenV",
+    "worldPosition": {
+      "x": 15.449999809265137,
+      "y": -2.0999999046325684,
+      "z": 0.0
+    },
+    "colliderId": 1613,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2105,
+    "destinationColliderId": 1615,
+    "destinationGameObject": 684,
+    "destinationPath": "Stores/HiddenV/Teleporter HiddenV",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 82
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning && day>=18",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 690
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 146
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "Scented flowers",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 697,
+    "path": "StoreEntrances/Scented/Teleporter Entrance Scented",
+    "worldPosition": {
+      "x": 13.15999984741211,
+      "y": -0.14900000393390656,
+      "z": 0.0
+    },
+    "colliderId": 1606,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2228,
+    "destinationColliderId": 1621,
+    "destinationGameObject": 681,
+    "destinationPath": "Stores/Scented/Teleporter Scented",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 287
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 697
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 83
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1736
+          }
+        ],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 432
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "GemByJ jewelry",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 700,
+    "path": "StoreEntrances/GemByJ/CityChat/Teleporter Entrance Gem by J",
+    "worldPosition": {
+      "x": 17.719999313354492,
+      "y": -0.14900000393390656,
+      "z": 0.0
+    },
+    "colliderId": 1609,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2253,
+    "destinationColliderId": 1622,
+    "destinationGameObject": 682,
+    "destinationPath": "Stores/GemByJ/Teleporter GemByJ",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 66
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning && (day<=5 || (10<=day&&day<=15))",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 700
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "CityChat",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 699,
+    "path": "StoreEntrances/GemByJ/CityChat/Teleporter Entrance CityChat",
+    "worldPosition": {
+      "x": 17.709099303930998,
+      "y": -0.14900000393390656,
+      "z": 0.0
+    },
+    "colliderId": 1608,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2250,
+    "destinationColliderId": 1605,
+    "destinationGameObject": 695,
+    "destinationPath": "Stores/CityChat/Teleporter CityChat",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 66
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning && day >= 21",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 699
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "BestRoof housing",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 679,
+    "path": "StoreEntrances/BestRoof/Teleporter Entrance BestRoof",
+    "worldPosition": {
+      "x": 17.719999313354492,
+      "y": -4.0,
+      "z": 0.0
+    },
+    "colliderId": 1619,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2424,
+    "destinationColliderId": 1612,
+    "destinationGameObject": 689,
+    "destinationPath": "Stores/BestRoof/Teleporter BestRoof",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 333
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning && day >=12",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 679
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 573
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "AjikHair haircut",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 696,
+    "path": "StoreEntrances/AjkiHair/Teleporter Entrance Ajik Hair",
+    "worldPosition": {
+      "x": 15.4399995803833,
+      "y": -4.010000228881836,
+      "z": 0.0
+    },
+    "colliderId": 1604,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2342,
+    "destinationColliderId": 1602,
+    "destinationGameObject": 694,
+    "destinationPath": "Stores/AjikHair/Teleporter AjikHair",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 111
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 696
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 413
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "NiceT clothes",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 698,
+    "path": "StoreEntrances/NiceT/Teleporter Entrance NiceT",
+    "worldPosition": {
+      "x": 13.149999618530273,
+      "y": -4.010000228881836,
+      "z": 0.0
+    },
+    "colliderId": 1607,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2239,
+    "destinationColliderId": 1616,
+    "destinationGameObject": 685,
+    "destinationPath": "Stores/NiceT/Teleporter NiceT",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 176
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "morning",
+        "useComplexPredicate": 0,
+        "complexPredicate": {
+          "trueIfAllOf": "",
+          "trueIfAnyOf": "",
+          "falseIfAllOf": "",
+          "falseIfAnyOf": ""
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 698
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 152
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": []
+      }
+    ]
+  },
+  {
+    "label": "JunkJunk",
+    "version": "windows-1.0.5-demo",
+    "evidence": "serialized-scene-and-static-code",
+    "gameObject": 691,
+    "path": "StoreEntrances/JunkJunk/Teleporter Entrance JunkJunk",
+    "worldPosition": {
+      "x": 13.149999618530273,
+      "y": -2.0899999141693115,
+      "z": 0.0
+    },
+    "colliderId": 1614,
+    "colliderSize": {
+      "x": 0.2435588538646698,
+      "y": 0.75
+    },
+    "colliderOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "destinationComponentId": 2125,
+    "destinationColliderId": 1601,
+    "destinationGameObject": 692,
+    "destinationPath": "Stores/JunkJunk/Teleporter JunkJunk",
+    "enableControllers": [
+      {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 180
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2528
+        },
+        "m_Name": "",
+        "predicate": "",
+        "useComplexPredicate": 1,
+        "complexPredicate": {
+          "trueIfAllOf": [],
+          "trueIfAnyOf": [],
+          "falseIfAllOf": [],
+          "falseIfAnyOf": [
+            "evening",
+            "day<=3",
+            "7<=day && day<=10",
+            "hanjaHurt"
+          ]
+        },
+        "renderersToControl": [],
+        "behavioursToControl": [],
+        "gameObjectsToControl": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 691
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 391
+          }
+        ],
+        "onEnabledByContext": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onEnabledByContextValue": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "renderersToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 1751
+          }
+        ],
+        "behavioursToDisable": [],
+        "gameObjectsToDisable": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 98
+          }
+        ]
+      }
+    ]
+  }
+]

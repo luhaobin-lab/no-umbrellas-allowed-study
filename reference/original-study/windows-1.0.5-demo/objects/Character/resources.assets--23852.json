@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23852",
+    "asset": "resources.assets",
+    "pathId": 23852,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "random_female_3040",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23852.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "random_female_3040",
+    "ID": "random_female_3040",
+    "Sex": 0,
+    "Age": 1,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 1,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 1,
+        "BODY": "",
+        "randomCLOTH": 1,
+        "CLOTH": "",
+        "randomHEAD": 1,
+        "HEAD": "",
+        "randomEYE": 1,
+        "EYE": "",
+        "randomEYEBROW": 1,
+        "EYEBROW": "",
+        "randomNOSE": 1,
+        "NOSE": "",
+        "randomMOUTH": 1,
+        "MOUTH": "",
+        "randomHAIR": 1,
+        "HAIR": "",
+        "randomBACKHAIR": 1,
+        "BACKHAIR": "",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 1
+  }
+}

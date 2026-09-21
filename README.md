@@ -1,62 +1,43 @@
-# No Umbrellas Allowed 机制研究原型
+# No Umbrellas Allowed — Demo 研究与复刻
 
-本地试玩：<http://127.0.0.1:5174/>。本轮已移除录像余额覆盖和录像成交价判定；以持续账本、真实库存、独立物品事实和可保存的议价状态运行。
+这是可运行的学习研究项目，当前以用户提供的 **Windows 1.0.5 Demo** 为运行时依据；Mac 0.2.5 Demo 用于研究对照。**尚未完成整个原游戏的 1:1 还原。**
 
-**这是参考视频 DAY6–11 的可玩研究片段，不是原作全游戏的完整移植，也尚未达到全画面、全部分支 1:1。** 当前验收与已知缺口见 [SYSTEM_STATUS.md](docs/SYSTEM_STATUS.md)。
+换电脑或换 AI 接手，请先读 **[AI_HANDOFF.md](AI_HANDOFF.md)**：任务方向、源码地图、实际验收、未完成项、操作顺序和恢复资料的方法都在其中。
 
-最新已完成用户提供的两份 Demo 原文件解包研究，包含全部物品、卡、手册、工具、NPC管线及剧情动作证据，见[原文件研究总册](docs/original-study/README.md)。这些研究成果尚未全部接入当前试玩；原 DLL 对照已经测出原型仍有议价差异。
+## 启动
 
-## 启动与测试
+需要 Node.js 20+：
 
 ```sh
-npm install
-npm run build
-npm run preview
+npm ci
+npm run dev
 ```
 
-开发服务器用 `npm run dev`。连续验收应对稳定的5174构建运行，避免热更新重置测试。
+打开终端打印的本机地址，通常为 http://127.0.0.1:5173/。也可运行 `npm run build` 后用 `npm run preview`（默认5174）。默认 New Game 为原 Demo 的 DAY1—3；旧存档保留兼容。
 
 ```sh
 npm test
-node scripts/verify-free-play.mjs
-TEST_URL=http://127.0.0.1:5174 node scripts/verify-book.mjs
-TEST_URL=http://127.0.0.1:5174 node scripts/verify-inventory.mjs
-node scripts/verify-tool-readouts.mjs
+npm run build
 ```
 
-Playwright默认使用本机Google Chrome。`scripts/verify-session.mjs`、`verify-flow.mjs`是旧的录像路线测试，不能用来证明当前系统规则正确。
+收尾快照：370/370 单元测试通过。完整 DAY1—3 浏览器验收完成，852 次真实操作、22 次手册拖卡、保存/加载成功、浏览器零错误。包含实际策展选物和报价，**不代表尚未接完的全街道/全部演出已经验收**。
 
-## 操作
+## 跨电脑资料
 
-- New Game从录像DAY6初始局面开始。Load Game恢复本浏览器真实存档；每日开场存档可从桌上日历选择，旧分支保留。
-- 鼠标移到桌面底中的放大镜展开工具栏；选工具后移到物品上检测。工具定位手册页，但不自动贴正确标签。
-- 从书中拖标签到左鉴定单；同类替换，拖出移除。私有卡在剧情解锁后可使用。
-- 右下报价器可输入数字，OFFER报价、ACCEPT接受当前还价、DECLINE拒绝。没有当前还价时，ACCEPT不会偷用录像成交价。
-- 成交或拒绝后点顾客继续。货架和库存支持拖放、定价、移除；未持有或未挂牌的商品不会凭空售出。
-- 日终外出并返回Darcy’s看实际交易日结，Sleep进入次日。贷款利息按实际借款日期和周期结算。
-- 街道A/D或方向键行走，E交互；可去花店、维修、借还款及已录故事地点。修理会扣费并使商品下架，需隔夜的商品翌日归还。
-- 设置提供声音、全屏、手动保存及存档返回菜单；约每2秒自动保存变化，页面关闭时再次保存。B打开书、F全屏、Escape关闭覆盖层。
-- Challenge Mode提供30次来访的独立试验流程；该抽取顺序是研究原型的内容池规则，不是已证明相同的原作随机事件池。
+用户要求公开且精简：不上传原 Demo、研究截图、验收截图和大体积取证附件。Git 包含源码、游戏运行必需的图片/声音/字体素材、测试需要的小型差分样本以及交接说明。历史截图请按脚本重新生成；原 DLL 研究需要另行准备本地 Demo。
 
-## 研究资料
+原始 `参考视频.mp4` 当前不在工作区，也未上传。详细本地资料边界见 [AI_HANDOFF.md](AI_HANDOFF.md)。
 
-来源分别标注：用户提供的60分钟1.0.5视频；[开发者官方Windows 1.0.5 Demo](https://hoochoo-game-studios.itch.io/no-umbrellas-allowed)；官方更新记录；多份玩家指南。Demo的PlayerSettings确认为`1.0.5 Demo`，与完整版不是同一发行包，版本差异不会默认抹平。
+## 主要内容与边界
 
-- [官方物品与卡数据](docs/research/OFFICIAL_ITEM_DATA.md)：252张数值卡、目标物品真实属性及冲突核对。
-- [议价规则](docs/research/NEGOTIATION_DEMO_FACTS.md)：直接核对到的参数和仍未覆盖的事件管线。
-- [贷款、维修与日结](docs/research/DEMO_ECONOMY_FACTS.md)、[声望](docs/research/DEMO_REPUTATION_FACTS.md)：独立实现及对官方DLL的直接数值探针。
-- [此前过拟合问题](docs/COMPLETENESS_AUDIT.md)：保留原故障复现，修复状态另见新验收。
-- `docs/VIDEO_*.md`保留原视频逐段证据，不等于全部游戏内容清单。
+已接入609物品、252卡片、77页手册、六种鉴定工具、54角色定义、普通及32种专属NPC议价脚本、真实物品实例、买卖/上架/存档、Demo三天调度。29个街道购买组件的规则和原场景素材已准备；其完整界面接线、原街道人物动画、部分演出和像素级表现仍待继续。
 
-视频书页、人物、物品与对白素材已保留；本轮另从公开Demo提取了仪器和空白UI组件。原生C#分析文件仅在临时研究目录中，产品以独立TypeScript规则实现运行。无需运行Windows游戏。
+详细取证与分域交接：
 
-## 代码与状态
+- [研究索引](docs/original-study/README.md)
+- [物品与工具](docs/handoff/items-tools.md)
+- [经营、流程、生成和策展](docs/handoff/engine-progression.md)
+- [NPC与街景接入](docs/handoff/npc-street.md)
+- [最终测试输出](docs/handoff/final-test-results.txt)
 
-- `engine.ts`：持续会话、交易、所有权、按日推进。
-- `item-facts.ts`、`demo-item-data.ts`：物品事实；`data.ts`里的录像最终鉴定仍只是历史观察。
-- `negotiation.ts`、`economy.ts`、`reputation.ts`：可单独验证的规则。
-- `accounting.ts`、`session-store.ts`：账本、结算和原子存档。
-- `main.ts`、`street.ts`：实际鼠标键盘交互和原坐标界面。
-- `window.render_game_to_text()`只读当前玩家状态；`advanceTime(ms)`用于受控交互测试。
-
-`artifacts/qa/`保存真实浏览器截图及报告。测试通过仅证明报告中的场景；不把构建成功、样本通过或同一书页的像素一致扩大成全游戏完成。
+本项目用于学习研究；仓库不附加对原游戏素材的再授权声明。

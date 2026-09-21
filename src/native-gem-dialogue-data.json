@@ -1,0 +1,72 @@
+{
+  "source": "level58:2489",
+  "locale": "en-US",
+  "groups": [
+    {
+      "condition": "day <= 5",
+      "choice": 0,
+      "lines": [
+        {
+          "character": "kim",
+          "id": "8abc6bf5-4af6-4473-9df5-ae4aa41b8208",
+          "key": "Line_8abc6bf5-4af6-4473-9df5-ae4aa41b8208_Content",
+          "text": "Oh, I'm sorry, will you come back some other day?-d0.1- I was just about to leave to find my son..."
+        }
+      ]
+    },
+    {
+      "condition": "day <= 5",
+      "choice": 1,
+      "lines": [
+        {
+          "character": "kim",
+          "id": "205b862c-b3b4-43ae-a84b-578abc585ec6",
+          "key": "Line_205b862c-b3b4-43ae-a84b-578abc585ec6_Content",
+          "text": "Oh, I'm so sorry, I was leaving.-d0.1- My son has vanished again! So sorry to make you waste your time!"
+        }
+      ]
+    },
+    {
+      "condition": "day > 5",
+      "choice": 0,
+      "lines": [
+        {
+          "character": "kim",
+          "id": "f8ca1fef-84c2-4a63-a7b7-2915d73e66a4",
+          "key": "Line_f8ca1fef-84c2-4a63-a7b7-2915d73e66a4_Content",
+          "text": "Bob, I'm sorry. -d0.1- AVAC has set a weekly limit on my sales, and..."
+        },
+        {
+          "character": "kim",
+          "id": "49a1ee7c-6773-4826-b78b-8fcaa7b0f3c5",
+          "key": "Line_49a1ee7c-6773-4826-b78b-8fcaa7b0f3c5_Content",
+          "text": "I'm allowed to sell only 300V a day.-d0.1-But most of the jewelry here is over 1,000V."
+        },
+        {
+          "character": "kim",
+          "id": "b99b6931-bb21-4686-86d3-2b6024a3f4b4",
+          "key": "Line_b99b6931-bb21-4686-86d3-2b6024a3f4b4_Content",
+          "text": "They're probably hoping to shut down my business..."
+        }
+      ]
+    },
+    {
+      "condition": "day > 5",
+      "choice": 1,
+      "lines": [
+        {
+          "character": "kim",
+          "id": "9c58467a-a398-4710-aae4-52f032368f13",
+          "key": "Line_9c58467a-a398-4710-aae4-52f032368f13_Content",
+          "text": "Bob, have you seen Wonsu today?"
+        },
+        {
+          "character": "kim",
+          "id": "140396a1-2625-4915-b24a-1b89633bc5e9",
+          "key": "Line_140396a1-2625-4915-b24a-1b89633bc5e9_Content",
+          "text": "I can't find him since last night.-d0.1- What should I do..."
+        }
+      ]
+    }
+  ]
+}

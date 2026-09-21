@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23843",
+    "asset": "resources.assets",
+    "pathId": 23843,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "player",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23843.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "player",
+    "ID": "player",
+    "Sex": 0,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "",
+        "randomCLOTH": 0,
+        "CLOTH": "",
+        "randomHEAD": 0,
+        "HEAD": "",
+        "randomEYE": 0,
+        "EYE": "",
+        "randomEYEBROW": 0,
+        "EYEBROW": "",
+        "randomNOSE": 0,
+        "NOSE": "",
+        "randomMOUTH": 0,
+        "MOUTH": "",
+        "randomHAIR": 0,
+        "HAIR": "",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "",
+        "randomOTHERS": 0,
+        "OTHERS": "",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

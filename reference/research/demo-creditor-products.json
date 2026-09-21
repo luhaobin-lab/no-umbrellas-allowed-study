@@ -1,0 +1,103 @@
+{
+  "source": "https://hoochoo-game-studios.itch.io/no-umbrellas-allowed",
+  "build": "1.0.5 Demo Windows",
+  "verifiedAt": "2026-09-21",
+  "investor": {
+    "product": {
+      "creditor": "investor",
+      "id": "investorFirst",
+      "principal": 5000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 500,
+      "sameDayRepayment": 5500
+    },
+    "before": 1,
+    "afterRepaymentHook": 1,
+    "repaymentDay11": 5500,
+    "eventEvidence": {
+      "asset": "resources.assets",
+      "pathId": 24063,
+      "name": "D21_investor",
+      "canPlayMultipleTimes": 0,
+      "providerCharacterPathId": 23832,
+      "providerId": "investor",
+      "serializedParameterOffsets": {
+        "loanAmount": 5632,
+        "interestPercentage": 5678,
+        "interestFrequency": 5722
+      },
+      "sourceParameters": {
+        "loanID": "investorFirst",
+        "loanAmount": 5000,
+        "interestPercentage": 10.0,
+        "interestFrequency": 2
+      }
+    }
+  },
+  "capitalLadder": [
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 5000,
+      "rate": 0.01,
+      "cycleDays": 1,
+      "interest": 50,
+      "sameDayRepayment": 5050
+    },
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 8000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 800,
+      "sameDayRepayment": 8800
+    },
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 12000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 1200,
+      "sameDayRepayment": 13200
+    },
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 17000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 1700,
+      "sameDayRepayment": 18700
+    },
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 23000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 2300,
+      "sameDayRepayment": 25300
+    },
+    {
+      "creditor": "capital",
+      "id": "capital",
+      "principal": 23000,
+      "rate": 0.1,
+      "cycleDays": 2,
+      "interest": 2300,
+      "sameDayRepayment": 25300
+    }
+  ],
+  "central": {
+    "creditor": "central",
+    "id": "central",
+    "principal": 5000,
+    "rate": 0.1,
+    "cycleDays": 1,
+    "interest": 500,
+    "sameDayRepayment": 5500
+  }
+}

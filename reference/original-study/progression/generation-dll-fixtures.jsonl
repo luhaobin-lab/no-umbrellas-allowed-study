@@ -1,0 +1,513 @@
+{"kind": "rng-control", "values": [0.123, 0.456]}
+{"kind": "target", "n": 0, "normal": 0, "challenge": 50}
+{"kind": "target", "n": 1, "normal": 7.2, "challenge": 150}
+{"kind": "target", "n": 2, "normal": 28.8, "challenge": 300}
+{"kind": "target", "n": 9, "normal": 583.2, "challenge": 2750}
+{"kind": "target", "n": 10, "normal": 720, "challenge": 3750}
+{"kind": "target", "n": 19, "normal": 2599.2000000000003, "challenge": 12750}
+{"kind": "target", "n": 20, "normal": 2880, "challenge": 14750}
+{"kind": "target", "n": 79, "normal": 44935.200000000004, "challenge": 132750}
+{"kind": "target", "n": 80, "normal": 46080, "challenge": 134750}
+{"kind": "target", "n": 100, "normal": 68400, "challenge": 174750}
+{"kind": "difficulty", "day": 1, "screw": null, "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 1, "screw": null, "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 1, "screw": null, "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 1, "screw": "false", "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 1, "screw": "false", "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 1, "screw": "false", "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 1, "screw": "true", "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 1, "screw": "true", "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 1, "screw": "true", "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": null, "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 3, "screw": null, "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": null, "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": "false", "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 3, "screw": "false", "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": "false", "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": "true", "early": null, "min": 1, "max": 1}
+{"kind": "difficulty", "day": 3, "screw": "true", "early": "false", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 3, "screw": "true", "early": "true", "min": 2, "max": 2}
+{"kind": "difficulty", "day": 4, "screw": null, "early": null, "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": null, "early": "false", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": null, "early": "true", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "false", "early": null, "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "false", "early": "false", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "false", "early": "true", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "true", "early": null, "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "true", "early": "false", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 4, "screw": "true", "early": "true", "min": 2, "max": 3}
+{"kind": "difficulty", "day": 5, "screw": null, "early": null, "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": null, "early": "false", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": null, "early": "true", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "false", "early": null, "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "false", "early": "false", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "false", "early": "true", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "true", "early": null, "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "true", "early": "false", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 5, "screw": "true", "early": "true", "min": 2, "max": 4}
+{"kind": "difficulty", "day": 6, "screw": null, "early": null, "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": null, "early": "false", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": null, "early": "true", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "false", "early": null, "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "false", "early": "false", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "false", "early": "true", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "true", "early": null, "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "true", "early": "false", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 6, "screw": "true", "early": "true", "min": 2, "max": 5}
+{"kind": "difficulty", "day": 8, "screw": null, "early": null, "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": null, "early": "false", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": null, "early": "true", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "false", "early": null, "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "false", "early": "false", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "false", "early": "true", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "true", "early": null, "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "true", "early": "false", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 8, "screw": "true", "early": "true", "min": 2, "max": 6}
+{"kind": "difficulty", "day": 11, "screw": null, "early": null, "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": null, "early": "false", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": null, "early": "true", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "false", "early": null, "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "false", "early": "false", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "false", "early": "true", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "true", "early": null, "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "true", "early": "false", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 11, "screw": "true", "early": "true", "min": 2, "max": 7}
+{"kind": "difficulty", "day": 16, "screw": null, "early": null, "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": null, "early": "false", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": null, "early": "true", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "false", "early": null, "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "false", "early": "false", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "false", "early": "true", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "true", "early": null, "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "true", "early": "false", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 16, "screw": "true", "early": "true", "min": 2, "max": 8}
+{"kind": "difficulty", "day": 17, "screw": null, "early": null, "min": 2, "max": 10}
+{"kind": "difficulty", "day": 17, "screw": null, "early": "false", "min": 2, "max": 10}
+{"kind": "difficulty", "day": 17, "screw": null, "early": "true", "min": 2, "max": 10}
+{"kind": "difficulty", "day": 17, "screw": "false", "early": null, "min": 2, "max": 11}
+{"kind": "difficulty", "day": 17, "screw": "false", "early": "false", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 17, "screw": "false", "early": "true", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 17, "screw": "true", "early": null, "min": 2, "max": 11}
+{"kind": "difficulty", "day": 17, "screw": "true", "early": "false", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 17, "screw": "true", "early": "true", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": null, "early": null, "min": 2, "max": 10}
+{"kind": "difficulty", "day": 21, "screw": null, "early": "false", "min": 2, "max": 10}
+{"kind": "difficulty", "day": 21, "screw": null, "early": "true", "min": 2, "max": 10}
+{"kind": "difficulty", "day": 21, "screw": "false", "early": null, "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": "false", "early": "false", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": "false", "early": "true", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": "true", "early": null, "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": "true", "early": "false", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 21, "screw": "true", "early": "true", "min": 2, "max": 11}
+{"kind": "difficulty", "day": 22, "screw": null, "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": null, "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": null, "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "false", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "false", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "false", "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "true", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "true", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 22, "screw": "true", "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": null, "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": null, "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": null, "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "false", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "false", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "false", "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "true", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "true", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 24, "screw": "true", "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": null, "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": null, "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": null, "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "false", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "false", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "false", "early": "true", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "true", "early": null, "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "true", "early": "false", "min": 2, "max": 12}
+{"kind": "difficulty", "day": 30, "screw": "true", "early": "true", "min": 2, "max": 12}
+{"kind": "challenge-difficulty", "n": 0, "min": 2, "max": 2}
+{"kind": "challenge-difficulty", "n": 1, "min": 2, "max": 2}
+{"kind": "challenge-difficulty", "n": 2, "min": 2, "max": 3}
+{"kind": "challenge-difficulty", "n": 3, "min": 2, "max": 4}
+{"kind": "challenge-difficulty", "n": 4, "min": 2, "max": 4}
+{"kind": "challenge-difficulty", "n": 5, "min": 2, "max": 5}
+{"kind": "challenge-difficulty", "n": 6, "min": 2, "max": 6}
+{"kind": "challenge-difficulty", "n": 7, "min": 2, "max": 6}
+{"kind": "challenge-difficulty", "n": 8, "min": 2, "max": 7}
+{"kind": "challenge-difficulty", "n": 9, "min": 2, "max": 7}
+{"kind": "challenge-difficulty", "n": 10, "min": 2, "max": 8}
+{"kind": "challenge-difficulty", "n": 11, "min": 2, "max": 8}
+{"kind": "challenge-difficulty", "n": 12, "min": 2, "max": 10}
+{"kind": "challenge-difficulty", "n": 13, "min": 2, "max": 11}
+{"kind": "challenge-difficulty", "n": 14, "min": 2, "max": 12}
+{"kind": "challenge-difficulty", "n": 15, "min": 2, "max": 13}
+{"kind": "challenge-difficulty", "n": 16, "min": 2, "max": 13}
+{"kind": "classification", "ids": ["gray_bag"], "fake": false, "valuable": false}
+{"kind": "hammer", "ids": ["gray_bag"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 101, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 505, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_artist"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 131.3, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 686.8, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_artist", "blue_repaired"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_repaired"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_repaired"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 131.3, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_repaired"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 686.8, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_artist", "blue_totallyWrecked"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_totallyWrecked"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_totallyWrecked"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 131.3, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_totallyWrecked"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 686.8, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_artist", "blue_fakesign"], "fake": false, "valuable": false}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_fakesign"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_fakesign"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 131.3, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_fakesign"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 686.8, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_artist", "blue_jewelry"], "fake": false, "valuable": false}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_jewelry"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_jewelry"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 131.3, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_artist", "blue_jewelry"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 686.8, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_archae", "blue_fakesign"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_archae", "blue_fakesign"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_archae", "blue_fakesign"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 222.20000000000002, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_archae", "blue_fakesign"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 1464.5, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "green_fakeBrand"], "fake": true, "valuable": false}
+{"kind": "hammer", "ids": ["gray_bag", "green_fakeBrand"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "green_fakeBrand"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 101, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "green_fakeBrand"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 505, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_nationalhis"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_nationalhis"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_nationalhis"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 101, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_nationalhis"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 505, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_national"], "fake": false, "valuable": false}
+{"kind": "hammer", "ids": ["gray_bag", "blue_national"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_national"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 181.8, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_national"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 1161.5, "band": "high"}
+{"kind": "classification", "ids": ["gray_bag", "blue_greatgreat"], "fake": false, "valuable": true}
+{"kind": "hammer", "ids": ["gray_bag", "blue_greatgreat"], "rolls": [0.95], "baseValue": 101, "value": 101, "band": "low"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_greatgreat"], "rolls": [0.949, 0.2, 0.3, 0.4, 0.5, 0.899], "baseValue": 101, "value": 262.6, "band": "mid"}
+{"kind": "hammer", "ids": ["gray_bag", "blue_greatgreat"], "rolls": [0.1, 0.9, 0.8, 0.7, 0.6, 0.9], "baseValue": 101, "value": 1373.6, "band": "high"}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": false, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 57, "gray": [], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 12, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 13, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 15, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 16, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 10, "n": 100, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 12, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 13, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "selected": "umbrella", "stack": 308, "gray": ["gray_umbrella"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 15, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 16, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2000001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.25, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_bag"], "price": 301, "selected": "ordinary", "stack": 308, "gray": ["gray_bag"], "brand": []}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_bag", "green_fakeBrand"], "price": 301, "selected": "fake", "stack": 308, "gray": ["gray_bag"], "brand": ["green_fakeBrand"]}
+{"kind": "selection", "challenge": true, "day": 11, "n": 100, "roll": 0.2500001, "ids": ["gray_umbrella"], "price": 301, "error": "Exception"}
+{"kind": "score", "ids": ["gray_bag"], "target": 1.9, "hammered": 0.1, "price": 101, "score": 100}
+{"kind": "score", "ids": ["gray_bag"], "target": 1.9, "hammered": 103.9, "price": 101, "score": 100}
+{"kind": "score", "ids": ["gray_bag"], "target": 1.9, "hammered": 555.5, "price": 101, "score": 100}
+{"kind": "score", "ids": ["gray_bag"], "target": 100.9, "hammered": 0.1, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 100.9, "hammered": 103.9, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 100.9, "hammered": 555.5, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 102.2, "hammered": 0.1, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 102.2, "hammered": 103.9, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 102.2, "hammered": 555.5, "price": 101, "score": 1}
+{"kind": "score", "ids": ["gray_bag"], "target": 999.9, "hammered": 0.1, "price": 101, "score": 898}
+{"kind": "score", "ids": ["gray_bag"], "target": 999.9, "hammered": 103.9, "price": 101, "score": 898}
+{"kind": "score", "ids": ["gray_bag"], "target": 999.9, "hammered": 555.5, "price": 101, "score": 898}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 1.9, "hammered": 0.1, "price": 101, "score": 49}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 1.9, "hammered": 103.9, "price": 101, "score": 101}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 1.9, "hammered": 555.5, "price": 101, "score": 327}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 100.9, "hammered": 0.1, "price": 101, "score": 50}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 100.9, "hammered": 103.9, "price": 101, "score": 2}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 100.9, "hammered": 555.5, "price": 101, "score": 228}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 102.2, "hammered": 0.1, "price": 101, "score": 52}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 102.2, "hammered": 103.9, "price": 101, "score": 0}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 102.2, "hammered": 555.5, "price": 101, "score": 226}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 999.9, "hammered": 0.1, "price": 101, "score": 949}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 999.9, "hammered": 103.9, "price": 101, "score": 897}
+{"kind": "score", "ids": ["gray_bag", "blue_artist"], "target": 999.9, "hammered": 555.5, "price": 101, "score": 671}

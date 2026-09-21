@@ -1,0 +1,65 @@
+{
+  "_source": {
+    "id": "resources.assets:23824",
+    "asset": "resources.assets",
+    "pathId": 23824,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "eggie",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23824.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "eggie",
+    "ID": "eggie",
+    "Sex": 0,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "207",
+        "randomCLOTH": 0,
+        "CLOTH": "207",
+        "randomHEAD": 0,
+        "HEAD": "207",
+        "randomEYE": 0,
+        "EYE": "207",
+        "randomEYEBROW": 0,
+        "EYEBROW": "207",
+        "randomNOSE": 0,
+        "NOSE": "207",
+        "randomMOUTH": 0,
+        "MOUTH": "207",
+        "randomHAIR": 0,
+        "HAIR": "207",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "207",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "true"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}

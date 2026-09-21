@@ -1,0 +1,96 @@
+{
+  "_source": {
+    "id": "resources.assets:23860",
+    "asset": "resources.assets",
+    "pathId": 23860,
+    "type": "MonoBehaviour",
+    "resourcePaths": [],
+    "name": "seon",
+    "class": "Character",
+    "namespace": "",
+    "assembly": "Assembly-CSharp.dll",
+    "json": "objects/Character/resources.assets--23860.json",
+    "headerVerified": true
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 408
+    },
+    "m_Name": "seon",
+    "ID": "seon",
+    "Sex": 0,
+    "Age": 0,
+    "Name": "",
+    "Appearance": [
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "208",
+        "randomCLOTH": 0,
+        "CLOTH": "208",
+        "randomHEAD": 0,
+        "HEAD": "208",
+        "randomEYE": 0,
+        "EYE": "208",
+        "randomEYEBROW": 0,
+        "EYEBROW": "208",
+        "randomNOSE": 0,
+        "NOSE": "208",
+        "randomMOUTH": 0,
+        "MOUTH": "208",
+        "randomHAIR": 0,
+        "HAIR": "208",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "208",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day<25"
+      },
+      {
+        "UseRandomColors": 0,
+        "UseCustomHairColor": 0,
+        "CustomHairColor": {
+          "r": 0.0,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "randomBODY": 0,
+        "BODY": "208_2",
+        "randomCLOTH": 0,
+        "CLOTH": "208_2",
+        "randomHEAD": 0,
+        "HEAD": "208",
+        "randomEYE": 0,
+        "EYE": "208",
+        "randomEYEBROW": 0,
+        "EYEBROW": "208",
+        "randomNOSE": 0,
+        "NOSE": "208",
+        "randomMOUTH": 0,
+        "MOUTH": "208",
+        "randomHAIR": 0,
+        "HAIR": "208_2",
+        "randomBACKHAIR": 0,
+        "BACKHAIR": "208",
+        "randomOTHERS": 0,
+        "OTHERS": "None",
+        "UseIf": "day>=25"
+      }
+    ],
+    "CanBeReported": 0
+  }
+}
