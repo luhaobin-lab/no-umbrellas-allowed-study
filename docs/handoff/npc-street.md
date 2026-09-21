@@ -84,11 +84,11 @@ Product hotspots expose only real source shelves: flowers6 (filtered to today's3
 
 NiceT selection2338 and open/close2312, AjikHair hair selection2348 are separate source regions. Exit teleporters have kind `StreetInteractible`; do not convert every collider to a purchase button. ChallengeMode removes the source Scented/HiddenV/Repair exit objects where specified; GEM does not share that condition.
 
-## Main integration still required at freeze
+## Main integration status at final handoff
 
-The root agent is applying only a minimal GEM fix at handoff. **Do not assume the new `StreetWorld` renderer and all store surfaces are wired into `main.ts`.** Inspect latest main to see which minimal changes landed.
+The minimal GEM fix is included in the final handoff: its source room, Kim dialogue and exit are connected. **Do not assume the new `StreetWorld` renderer and all store surfaces are wired into `main.ts`.** The remaining integration work below is still open.
 
-1. Replace the incorrect GEM→repair action with source `GemByJ` room and Kim dialogue. The supplied Demo has **no GEM goods/purchase/repair component**. `nativeGemDialogue(day,choiceIndex)` returns ordered `{character,id,key,text}` lines for one of two original groups in the day<=5 / day>5 branch. Pick and persist `choiceIndex` once using world RNG, not every render. Data: `native-gem-dialogue-data.json`.
+1. Preserve the corrected GEM route to the source `GemByJ` room and Kim dialogue. The supplied Demo has **no GEM goods/purchase/repair component**. `nativeGemDialogue(day,choiceIndex)` returns ordered `{character,id,key,text}` lines for one of two original groups in the day<=5 / day>5 branch. Pick and persist `choiceIndex` once using world RNG, not every render. Data: `native-gem-dialogue-data.json`.
 2. Before enabling native street rendering, fix the Bob source-animation problem below. Then create/preload `NativeStreetView`; call `street.render` with view, live contexts and actual bitmap prompt drawing. Default monospace prompt is only a loading/research fallback.
 3. Dispatch new navigation routes `nav:street-b3`, `nav:street-b2-east`, and `nav:store:<exact storeId>`. B2 now spans the full source width4506/maxX3710, and source doors include JunkJunk/HiddenV/Repair. B3 includes NiceT/AjikHair/BestRoof. Preserve E and click-walk arrival semantics and saved street position.
 4. Before opening a store, call controller `game.isStreetStoreOpen(storeId)`. Source gates: Repairday>=9; HiddenVday>=18; BestRoofday>=12; CityChatday>=21; Scented/NiceT/AjikHair morning. GEM is morning and(day<=5 or10..15). JunkJunk has its own evening/day3/day7..10/hanjaHurt exclusions. The day1–3 Demo correctly cannot access Repair/HiddenV.
@@ -106,4 +106,4 @@ The root agent is applying only a minimal GEM fix at handoff. **Do not assume th
 
 Other remaining street gaps: public square is still the earlier video strip; B3 lower-floor route is explicitly unported;54 dynamic null-sprite slots, scene animations and runtime character/style assignments are not reproduced by static exports. Source room screenshots verify layering/trim offsets and three-flower layout, not complete native animation or every source state.
 
-At this subagent's final typecheck, only `src/native-tool-view.ts` optional/null errors were reported; that file is root-owned and root is fixing it. No street type errors were reported. Rerun the full build and suite after the root's final freeze instead of treating this transient typecheck as the final repository result.
+The transient `src/native-tool-view.ts` optional/null errors from the intermediate subagent check were fixed before the final handoff. The final full suite passed 370/370 tests, and typecheck/build passed again in a clean Git-only export. See `final-validation.json` for the final evidence; rerun these checks after any new changes.
